@@ -15,7 +15,7 @@ React·TypeScript로 화면을 만들고, 필요하면 서버와 배포까지 �
 | **formabridge** | 좋아하는 음악을 기록하는 음악 SNS 서비스<br>4인 · 풀스택 참여, 배치 파이프라인·배포 담당 | Remix · Prisma · PostgreSQL · Docker · Kubernetes · GitHub Actions | [케이스 스터디](https://github.com/TrossYou/portfolio/blob/main/formabridge.md) · [repo](https://github.com/formalBridge/project_alpha) |
 | **학습 로그 대시보드** | 알고리즘 풀이의 접근·오답 원인을 기록하고 약점을 추적하는 도구<br>의존성 없이 단일 HTML 파일로 구현 | Vanilla JS · 힘 기반 그래프 레이아웃 | [데모](https://trossyou.github.io/algorithm/) · [repo](https://github.com/TrossYou/algorithm) |
 
-케이스 스터디에는 **무엇을 결정했고, 무엇이 틀렸고, 무엇을 배웠는지**를 씁니다 → [trossyou.github.io/portfolio](https://trossyou.github.io/portfolio/)
+케이스 스터디에는 **무엇을 결정했고, 무엇이 틀렸고, 무엇을 배웠는지**를 씁니다.
 
 ---
 
