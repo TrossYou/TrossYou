@@ -7,37 +7,17 @@
 <!-- ─────────────── Typing ─────────────── -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1200&color=9FB1D4&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1200&color=3B4A6B&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=4500&pause=2500&color=9198A1&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=4500&pause=2500&color=59636E&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers" alt="Typing SVG">
   </picture>
 </p>
 
 ## About
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <sub>EDUCATION</sub><br><br>
-      <b>SSAFY 15기</b><br>
-      삼성청년SW·AI아카데미<br><br>
-      <b>숭실대학교</b><br>
-      컴퓨터학부 졸업
-    </td>
-    <td width="33%" valign="top">
-      <sub>HIGHLIGHTS</sub><br><br>
-      <b>913ms → 149ms</b><br>
-      PinLog 서체 로딩 개선<br><br>
-      <b>105건</b><br>
-      팀 채팅에 묻히던 파트 간 문의를 이슈 보드로 옮겨 정리
-    </td>
-    <td width="33%" valign="top">
-      <sub>CERTIFICATES</sub><br><br>
-      <b>정보처리기사</b><br><br>
-      <b>SQLD</b><br><br>
-      <b>TOPCIT</b> 수준 3
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg">
+  <img src="./assets/about-light.svg" alt="SSAFY 15기 · 숭실대학교 컴퓨터학부 졸업 · 913ms → 149ms 서체 로딩 개선 · 파트 간 문의 105건 정리 · 정보처리기사 · SQLD · TOPCIT 수준 3" width="100%">
+</picture>
 
 <br>
 
