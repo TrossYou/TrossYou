@@ -25,28 +25,28 @@
 
 **Frontend**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React-3B4A6B?style=flat&logo=react&logoColor=white"><img src="https://img.shields.io/badge/React-E6EAF2?style=flat&logo=react&logoColor=3B4A6B" alt="React"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TypeScript-3B4A6B?style=flat&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/TypeScript-E6EAF2?style=flat&logo=typescript&logoColor=3B4A6B" alt="TypeScript"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vite-3B4A6B?style=flat&logo=vite&logoColor=white"><img src="https://img.shields.io/badge/Vite-E6EAF2?style=flat&logo=vite&logoColor=3B4A6B" alt="Vite"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Query-3B4A6B?style=flat&logo=reactquery&logoColor=white"><img src="https://img.shields.io/badge/TanStack_Query-E6EAF2?style=flat&logo=reactquery&logoColor=3B4A6B" alt="TanStack Query"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Router-3B4A6B?style=flat"><img src="https://img.shields.io/badge/TanStack_Router-E6EAF2?style=flat" alt="TanStack Router"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zustand-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Zustand-E6EAF2?style=flat" alt="Zustand"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Tailwind_CSS-3B4A6B?style=flat&logo=tailwindcss&logoColor=white"><img src="https://img.shields.io/badge/Tailwind_CSS-E6EAF2?style=flat&logo=tailwindcss&logoColor=3B4A6B" alt="Tailwind CSS"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Remix-3B4A6B?style=flat&logo=remix&logoColor=white"><img src="https://img.shields.io/badge/Remix-E6EAF2?style=flat&logo=remix&logoColor=3B4A6B" alt="Remix"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React-262C36?style=flat&logo=react"><img src="https://img.shields.io/badge/React-EEF1F5?style=flat&logo=react" alt="React"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TypeScript-262C36?style=flat&logo=typescript"><img src="https://img.shields.io/badge/TypeScript-EEF1F5?style=flat&logo=typescript" alt="TypeScript"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vite-262C36?style=flat&logo=vite"><img src="https://img.shields.io/badge/Vite-EEF1F5?style=flat&logo=vite" alt="Vite"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Query-262C36?style=flat&logo=reactquery"><img src="https://img.shields.io/badge/TanStack_Query-EEF1F5?style=flat&logo=reactquery" alt="TanStack Query"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Router-262C36?style=flat"><img src="https://img.shields.io/badge/TanStack_Router-EEF1F5?style=flat" alt="TanStack Router"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zustand-262C36?style=flat"><img src="https://img.shields.io/badge/Zustand-EEF1F5?style=flat" alt="Zustand"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Tailwind_CSS-262C36?style=flat&logo=tailwindcss"><img src="https://img.shields.io/badge/Tailwind_CSS-EEF1F5?style=flat&logo=tailwindcss" alt="Tailwind CSS"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Remix-262C36?style=flat&logo=remix&logoColor=white"><img src="https://img.shields.io/badge/Remix-EEF1F5?style=flat&logo=remix" alt="Remix"></picture>
 
 **Validation & Test**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zod-3B4A6B?style=flat&logo=zod&logoColor=white"><img src="https://img.shields.io/badge/Zod-E6EAF2?style=flat&logo=zod&logoColor=3B4A6B" alt="Zod"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/MSW-3B4A6B?style=flat&logo=mockserviceworker&logoColor=white"><img src="https://img.shields.io/badge/MSW-E6EAF2?style=flat&logo=mockserviceworker&logoColor=3B4A6B" alt="MSW"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vitest-3B4A6B?style=flat&logo=vitest&logoColor=white"><img src="https://img.shields.io/badge/Vitest-E6EAF2?style=flat&logo=vitest&logoColor=3B4A6B" alt="Vitest"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zod-262C36?style=flat&logo=zod"><img src="https://img.shields.io/badge/Zod-EEF1F5?style=flat&logo=zod" alt="Zod"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/MSW-262C36?style=flat&logo=mockserviceworker"><img src="https://img.shields.io/badge/MSW-EEF1F5?style=flat&logo=mockserviceworker" alt="MSW"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vitest-262C36?style=flat&logo=vitest"><img src="https://img.shields.io/badge/Vitest-EEF1F5?style=flat&logo=vitest" alt="Vitest"></picture>
 
 **Backend · Infra**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Prisma-3B4A6B?style=flat&logo=prisma&logoColor=white"><img src="https://img.shields.io/badge/Prisma-E6EAF2?style=flat&logo=prisma&logoColor=3B4A6B" alt="Prisma"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PostgreSQL-3B4A6B?style=flat&logo=postgresql&logoColor=white"><img src="https://img.shields.io/badge/PostgreSQL-E6EAF2?style=flat&logo=postgresql&logoColor=3B4A6B" alt="PostgreSQL"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Docker-3B4A6B?style=flat&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/Docker-E6EAF2?style=flat&logo=docker&logoColor=3B4A6B" alt="Docker"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Kubernetes-3B4A6B?style=flat&logo=kubernetes&logoColor=white"><img src="https://img.shields.io/badge/Kubernetes-E6EAF2?style=flat&logo=kubernetes&logoColor=3B4A6B" alt="Kubernetes"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub_Actions-3B4A6B?style=flat&logo=githubactions&logoColor=white"><img src="https://img.shields.io/badge/GitHub_Actions-E6EAF2?style=flat&logo=githubactions&logoColor=3B4A6B" alt="GitHub Actions"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Prisma-262C36?style=flat&logo=prisma&logoColor=white"><img src="https://img.shields.io/badge/Prisma-EEF1F5?style=flat&logo=prisma" alt="Prisma"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PostgreSQL-262C36?style=flat&logo=postgresql"><img src="https://img.shields.io/badge/PostgreSQL-EEF1F5?style=flat&logo=postgresql" alt="PostgreSQL"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Docker-262C36?style=flat&logo=docker"><img src="https://img.shields.io/badge/Docker-EEF1F5?style=flat&logo=docker" alt="Docker"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Kubernetes-262C36?style=flat&logo=kubernetes"><img src="https://img.shields.io/badge/Kubernetes-EEF1F5?style=flat&logo=kubernetes" alt="Kubernetes"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub_Actions-262C36?style=flat&logo=githubactions"><img src="https://img.shields.io/badge/GitHub_Actions-EEF1F5?style=flat&logo=githubactions" alt="GitHub Actions"></picture>
 
 <br>
 
@@ -70,7 +70,7 @@
   </tr>
 </table>
 
-<a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Live-E6EAF2?style=flat" alt="Live"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a>
+<a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
 ### PinLog — AI 장소 기록 서비스
 `2026.07 ~ 08` · 6인 팀 · SSAFY · 프론트엔드 기능 구현
@@ -94,7 +94,7 @@
   </tr>
 </table>
 
-<a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Case_Study-E6EAF2?style=flat" alt="Case Study"></picture></a>
+<a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
 
 ### formabridge — 음악 SNS 서비스
 `2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 · 프론트엔드 · 배포
@@ -114,7 +114,7 @@
   </tr>
 </table>
 
-<a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Case_Study-E6EAF2?style=flat" alt="Case Study"></picture></a>
+<a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
 
 ### Side Projects
 
@@ -124,19 +124,19 @@
       <b>학습 로그 대시보드</b><br>
       <sub>Vanilla JS</sub><br><br>
       알고리즘 풀이의 접근·오답 원인을 기록하고 약점을 추적하는 도구. 의존성 없이 단일 HTML 파일, 힘 기반 그래프 레이아웃으로 구현<br><br>
-      <a href="https://trossyou.github.io/algorithm/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Live-E6EAF2?style=flat" alt="Live"></picture></a> <a href="https://github.com/TrossYou/algorithm"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a>
+      <a href="https://trossyou.github.io/algorithm/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://github.com/TrossYou/algorithm"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
     </td>
     <td width="33%" valign="top">
       <b>mood-music-recommender</b><br>
       <sub>개인 · YOLOv8 · CLIP</sub><br><br>
       이미지 분위기로 음악을 추천. 31장 평가셋에서 인물 가중치 0.4~0.9를 6단계로 비교해 인물·배경 8:2 선택, 가중치 0.4 대비 정답률 <b>0.2903 → 0.6129</b><br><br>
-      <a href="https://github.com/TrossYou/mood-music-recommender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a>
+      <a href="https://github.com/TrossYou/mood-music-recommender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
     </td>
     <td width="33%" valign="top">
       <b>xv6 MLFQ 스케줄러</b><br>
       <sub>과제 · C · xv6</sub><br><br>
       과제 명세가 정한 다단계 피드백 큐와 Aging을 xv6 커널에 구현<br><br>
-      <a href="https://github.com/TrossYou/xv6-mlfq-scheduler"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a>
+      <a href="https://github.com/TrossYou/xv6-mlfq-scheduler"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
     </td>
   </tr>
 </table>
@@ -145,5 +145,5 @@
 
 ## Contact
 
-<a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/seungju.you1%40gmail.com-3B4A6B?style=flat&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/seungju.you1%40gmail.com-E6EAF2?style=flat&logo=gmail&logoColor=3B4A6B" alt="Email"></picture></a>
-<a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio_%C2%B7_trossyou.github.io-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Portfolio_%C2%B7_trossyou.github.io-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Portfolio"></picture></a>
+<a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/seungju.you1%40gmail.com-4C6CB3?style=for-the-badge&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/seungju.you1%40gmail.com-2E4A8B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></picture></a>
+<a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio_%C2%B7_trossyou.github.io-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Portfolio_%C2%B7_trossyou.github.io-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"></picture></a>
