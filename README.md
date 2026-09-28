@@ -83,21 +83,6 @@ React·TypeScript로 화면을 만들고, 성능 개선을 수치로 검증하�
 
 <br>
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TrossYou&show_icons=true&hide_border=true&bg_color=00000000&title_color=9FB1D4&icon_color=9FB1D4&text_color=9198A1">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=TrossYou&show_icons=true&hide_border=true&bg_color=00000000&title_color=3B4A6B&icon_color=3B4A6B&text_color=59636E" alt="GitHub Stats">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=TrossYou&layout=compact&hide_border=true&bg_color=00000000&title_color=9FB1D4&text_color=9198A1">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TrossYou&layout=compact&hide_border=true&bg_color=00000000&title_color=3B4A6B&text_color=59636E" alt="Top Languages">
-  </picture>
-</p>
-
-<br>
-
 ## Contact
 
 [![Email](https://img.shields.io/badge/seungju.you1@gmail.com-3B4A6B?style=flat&logo=gmail&logoColor=white)](mailto:seungju.you1@gmail.com)
