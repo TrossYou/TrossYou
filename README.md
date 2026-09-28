@@ -14,18 +14,18 @@
 
 <br>
 
-## 👋 About
+## About
 
 React·TypeScript로 화면을 만들고, 성능 개선을 수치로 검증하는 프론트엔드 개발자입니다.
 
-- 🎓 삼성청년SW·AI아카데미(SSAFY) 15기 · 숭실대학교 컴퓨터학부 졸업
-- ⚡ PinLog 서체 로딩 **913ms → 149ms** 개선
-- 🤝 팀 채팅에 묻히던 파트 간 문의를 이슈 보드로 옮겨 **105건** 정리
-- 📜 정보처리기사 · SQLD · TOPCIT 수준 3
+- 삼성청년SW·AI아카데미(SSAFY) 15기 · 숭실대학교 컴퓨터학부 졸업
+- PinLog 서체 로딩 **913ms → 149ms** 개선
+- 팀 채팅에 묻히던 파트 간 문의를 이슈 보드로 옮겨 **105건** 정리
+- 정보처리기사 · SQLD · TOPCIT 수준 3
 
 <br>
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 
@@ -54,7 +54,7 @@ React·TypeScript로 화면을 만들고, 성능 개선을 수치로 검증하�
 
 <br>
 
-## 📂 Projects
+## Projects
 
 ### [FINCH](https://finchapp.org) — AI 비서가 있는 증권 앱
 `2026.08 ~ 09` · 5인 팀 · SSAFY · 프론트엔드 구현 전반
@@ -98,7 +98,7 @@ React·TypeScript로 화면을 만들고, 성능 개선을 수치로 검증하�
 
 <br>
 
-## 📫 Contact
+## Contact
 
 [![Email](https://img.shields.io/badge/seungju.you1@gmail.com-3B4A6B?style=flat&logo=gmail&logoColor=white)](mailto:seungju.you1@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-trossyou.github.io-3B4A6B?style=flat&logo=githubpages&logoColor=white)](https://trossyou.github.io/portfolio/)
