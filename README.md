@@ -75,28 +75,64 @@
 ### FINCH — AI 비서가 있는 증권 앱
 `2026.08 ~ 09` · 5인 팀 · SSAFY · 프론트엔드 구현 전반
 
-- 종목 상세 · 홈 · AI 채팅 · 예수금 · 주문 화면 구현 (실시간 시세 구독, 기간별 캔들 차트, 시장가 매수·매도)
-- 아는 에러 코드일 때만 재발급하도록 인증 인터셉터의 방어 방향 설계
-- `React` `TypeScript` `TanStack Query` `Zustand` `Zod` `MSW`
+<table>
+  <tr>
+    <td width="72" valign="top"><b>구현</b></td>
+    <td>종목 상세 · 홈 · AI 채팅 · 예수금 · 주문 화면 (실시간 시세 구독, 기간별 캔들 차트, 시장가 매수·매도)</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>설계</b></td>
+    <td>아는 에러 코드일 때만 재발급하도록 인증 인터셉터의 방어 방향 설계</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>스택</b></td>
+    <td><code>React</code> <code>TypeScript</code> <code>TanStack Query</code> <code>Zustand</code> <code>Zod</code> <code>MSW</code></td>
+  </tr>
+</table>
 
 <a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Live-E6EAF2?style=flat" alt="Live"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a>
 
 ### PinLog — AI 장소 기록 서비스
 `2026.07 ~ 08` · 6인 팀 · SSAFY · 프론트엔드 기능 구현
 
-- 지도 기반 기록 · 자연어 검색 결과 화면 · 컬렉션 피드 구현
-- 서체 내려받기 **913ms → 149ms**, 결과 표시보다 약 806ms 먼저 준비
-- 프론트엔드 저장소 커밋 206건 중 178건(86%) 기여
-- `React` `TypeScript` `TanStack Query` `TanStack Router` `Vitest`
+<table>
+  <tr>
+    <td width="72" valign="top"><b>구현</b></td>
+    <td>지도 기반 기록 · 자연어 검색 결과 화면 · 컬렉션 피드</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>성능</b></td>
+    <td>서체 내려받기 <b>913ms → 149ms</b>, 결과 표시보다 약 806ms 먼저 준비</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>기여</b></td>
+    <td>프론트엔드 저장소 커밋 206건 중 178건(86%)</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>스택</b></td>
+    <td><code>React</code> <code>TypeScript</code> <code>TanStack Query</code> <code>TanStack Router</code> <code>Vitest</code></td>
+  </tr>
+</table>
 
 <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Case_Study-E6EAF2?style=flat" alt="Case Study"></picture></a>
 
 ### formabridge — 음악 SNS 서비스
 `2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 · 프론트엔드 · 배포
 
-- Google OAuth + JWT, Spotify API 연동, 팔로우 시스템, 모바일 반응형 UI
-- Docker · K8s · GitHub Actions로 배포 파이프라인 구축
-- `Remix` `TypeScript` `Prisma` `PostgreSQL` `Docker` `Kubernetes`
+<table>
+  <tr>
+    <td width="72" valign="top"><b>구현</b></td>
+    <td>Google OAuth + JWT, Spotify API 연동, 팔로우 시스템, 모바일 반응형 UI</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>배포</b></td>
+    <td>Docker · K8s · GitHub Actions로 배포 파이프라인 구축</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>스택</b></td>
+    <td><code>Remix</code> <code>TypeScript</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Docker</code> <code>Kubernetes</code></td>
+  </tr>
+</table>
 
 <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-3B4A6B?style=flat&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-E6EAF2?style=flat&logo=github&logoColor=3B4A6B" alt="Repo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-3B4A6B?style=flat"><img src="https://img.shields.io/badge/Case_Study-E6EAF2?style=flat" alt="Case Study"></picture></a>
 
