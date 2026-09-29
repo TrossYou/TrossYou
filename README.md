@@ -7,8 +7,8 @@
 <!-- ─────────────── Typing ─────────────── -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=4500&pause=2500&color=9198A1&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=4500&pause=2500&color=59636E&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4500&pause=2500&color=9198A1&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=4500&pause=2500&color=59636E&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+%C2%B7+TypeScript;913ms+%E2%86%92+149ms%2C+verified+by+numbers" alt="Typing SVG">
   </picture>
 </p>
 
