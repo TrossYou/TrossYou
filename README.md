@@ -16,7 +16,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg">
-  <img src="./assets/about-light.svg" alt="SSAFY 15기 · 숭실대학교 컴퓨터학부 졸업 · 913ms → 149ms 서체 로딩 개선 · 파트 간 문의 105건 정리 · 정보처리기사 · SQLD · TOPCIT 수준 3" width="100%">
+  <img src="./assets/about-light.svg" alt="SSAFY 15기 · 숭실대학교 컴퓨터학부 졸업 · 913ms → 149ms 서체 로딩 개선 · 파트 간 문의 105건 정리 · 정보처리기사(한국산업인력공단) · SQLD(한국데이터산업진흥원) · TOPCIT 수준 3(정보통신기획평가원)" width="100%">
 </picture>
 
 <br>
