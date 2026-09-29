@@ -145,5 +145,15 @@
 
 ## Contact
 
-<a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/seungju.you1%40gmail.com-4C6CB3?style=for-the-badge&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/seungju.you1%40gmail.com-2E4A8B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></picture></a>
-<a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio_%C2%B7_trossyou.github.io-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Portfolio_%C2%B7_trossyou.github.io-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"></picture></a>
+<table>
+  <tr>
+    <td width="96" valign="middle"><b>Email</b></td>
+    <td valign="middle"><code>seungju.you1@gmail.com</code></td>
+    <td valign="middle"><a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Send_Mail-4C6CB3?style=for-the-badge&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/Send_Mail-2E4A8B?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Mail"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="96" valign="middle"><b>Portfolio</b></td>
+    <td valign="middle">포트폴리오 사이트 · 프로젝트별 케이스 스터디</td>
+    <td valign="middle"><a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit_Site-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Visit_Site-2E4A8B?style=for-the-badge" alt="Visit Site"></picture></a></td>
+  </tr>
+</table>
