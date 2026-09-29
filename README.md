@@ -25,28 +25,28 @@
 
 **Frontend**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React-262C36?style=flat&logo=react"><img src="https://img.shields.io/badge/React-EEF1F5?style=flat&logo=react" alt="React"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TypeScript-262C36?style=flat&logo=typescript"><img src="https://img.shields.io/badge/TypeScript-EEF1F5?style=flat&logo=typescript" alt="TypeScript"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vite-262C36?style=flat&logo=vite"><img src="https://img.shields.io/badge/Vite-EEF1F5?style=flat&logo=vite" alt="Vite"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Query-262C36?style=flat&logo=reactquery"><img src="https://img.shields.io/badge/TanStack_Query-EEF1F5?style=flat&logo=reactquery" alt="TanStack Query"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Router-262C36?style=flat"><img src="https://img.shields.io/badge/TanStack_Router-EEF1F5?style=flat" alt="TanStack Router"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zustand-262C36?style=flat"><img src="https://img.shields.io/badge/Zustand-EEF1F5?style=flat" alt="Zustand"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Tailwind_CSS-262C36?style=flat&logo=tailwindcss"><img src="https://img.shields.io/badge/Tailwind_CSS-EEF1F5?style=flat&logo=tailwindcss" alt="Tailwind CSS"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Remix-262C36?style=flat&logo=remix&logoColor=white"><img src="https://img.shields.io/badge/Remix-EEF1F5?style=flat&logo=remix" alt="Remix"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"><img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"><img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=reactquery&logoColor=white"><img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=reactquery&logoColor=white" alt="TanStack Query"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TanStack_Router-1F2937?style=flat&logo=tanstack&logoColor=white"><img src="https://img.shields.io/badge/TanStack_Router-1F2937?style=flat&logo=tanstack&logoColor=white" alt="TanStack Router"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zustand-443E38?style=flat"><img src="https://img.shields.io/badge/Zustand-443E38?style=flat" alt="Zustand"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Remix-000000?style=flat&logo=remix&logoColor=white"><img src="https://img.shields.io/badge/Remix-000000?style=flat&logo=remix&logoColor=white" alt="Remix"></picture>
 
 **Validation & Test**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zod-262C36?style=flat&logo=zod"><img src="https://img.shields.io/badge/Zod-EEF1F5?style=flat&logo=zod" alt="Zod"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/MSW-262C36?style=flat&logo=mockserviceworker"><img src="https://img.shields.io/badge/MSW-EEF1F5?style=flat&logo=mockserviceworker" alt="MSW"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vitest-262C36?style=flat&logo=vitest"><img src="https://img.shields.io/badge/Vitest-EEF1F5?style=flat&logo=vitest" alt="Vitest"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white"><img src="https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white" alt="Zod"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/MSW-FF6A33?style=flat&logo=mockserviceworker&logoColor=white"><img src="https://img.shields.io/badge/MSW-FF6A33?style=flat&logo=mockserviceworker&logoColor=white" alt="MSW"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white"><img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white" alt="Vitest"></picture>
 
 **Backend · Infra**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Prisma-262C36?style=flat&logo=prisma&logoColor=white"><img src="https://img.shields.io/badge/Prisma-EEF1F5?style=flat&logo=prisma" alt="Prisma"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PostgreSQL-262C36?style=flat&logo=postgresql"><img src="https://img.shields.io/badge/PostgreSQL-EEF1F5?style=flat&logo=postgresql" alt="PostgreSQL"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Docker-262C36?style=flat&logo=docker"><img src="https://img.shields.io/badge/Docker-EEF1F5?style=flat&logo=docker" alt="Docker"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Kubernetes-262C36?style=flat&logo=kubernetes"><img src="https://img.shields.io/badge/Kubernetes-EEF1F5?style=flat&logo=kubernetes" alt="Kubernetes"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub_Actions-262C36?style=flat&logo=githubactions"><img src="https://img.shields.io/badge/GitHub_Actions-EEF1F5?style=flat&logo=githubactions" alt="GitHub Actions"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white"><img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions"></picture>
 
 <br>
 
