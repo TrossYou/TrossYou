@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="92" viewBox="0 0 1040 92" role="img" aria-label="01 FRONTEND — 프론트엔드 구현을 맡은 팀 프로젝트">
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="68" viewBox="0 0 1040 68" role="img" aria-label="FRONTEND — 프론트엔드 구현을 맡은 팀 프로젝트">
 <style>text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif}</style>
-<text x="520" y="20" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#6E7681">01</text>
-<rect x="356" y="45" width="72" height="1" fill="#3D444D"/>
-<text x="520" y="52" text-anchor="middle" font-size="18" font-weight="800" letter-spacing="4" fill="#9FB1D4">FRONTEND</text>
-<rect x="612" y="45" width="72" height="1" fill="#3D444D"/>
-<text x="520" y="80" text-anchor="middle" font-size="13" fill="#9198A1">프론트엔드 구현을 맡은 팀 프로젝트</text>
+<rect x="356" y="21" width="72" height="1" fill="#3D444D"/>
+<text x="520" y="28" text-anchor="middle" font-size="18" font-weight="800" letter-spacing="4" fill="#9FB1D4">FRONTEND</text>
+<rect x="612" y="21" width="72" height="1" fill="#3D444D"/>
+<text x="520" y="56" text-anchor="middle" font-size="13" fill="#9198A1">프론트엔드 구현을 맡은 팀 프로젝트</text>
 </svg>
