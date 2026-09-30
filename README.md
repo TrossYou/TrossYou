@@ -12,6 +12,15 @@
   </picture>
 </p>
 
+<p align="center">
+<a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit_Portfolio-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Visit_Portfolio-2E4A8B?style=for-the-badge" alt="Visit Portfolio"></picture></a>
+<a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Send_Mail-4C6CB3?style=for-the-badge&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/Send_Mail-2E4A8B?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Mail"></picture></a>
+<br>
+<code>seungju.you1@gmail.com</code>
+</p>
+
+<br>
+
 ## About
 
 <picture>
@@ -53,9 +62,12 @@
 
 ## Projects
 
-### Frontend
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-frontend-dark.svg">
+  <img src="./assets/section-frontend-light.svg" alt="01 FRONTEND" width="100%">
+</picture>
 
-#### FINCH — AI 비서가 있는 증권 앱
+### FINCH — AI 비서가 있는 증권 앱
 `2026.08 ~ 09` · 5인 팀 · SSAFY · 프론트엔드 구현 전반
 
 <table>
@@ -79,7 +91,7 @@
 
 <a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://youtu.be/4Cbu0-vMve4"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-#### PinLog — AI 장소 기록 서비스
+### PinLog — AI 장소 기록 서비스
 `2026.07 ~ 08` · 6인 팀 · SSAFY · 프론트엔드 기능 구현
 
 <table>
@@ -103,9 +115,14 @@
 
 <a href="https://youtu.be/lD5MbHL9TZ8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-### Full-stack
+<br>
 
-#### formabridge — 음악 SNS 서비스
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-fullstack-dark.svg">
+  <img src="./assets/section-fullstack-light.svg" alt="02 FULL-STACK" width="100%">
+</picture>
+
+### formabridge — 음악 SNS 서비스
 `2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 출품 · 풀스택
 
 <table>
@@ -125,7 +142,7 @@
 
 <a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-#### Sorizip — 중고 악기 거래 플랫폼
+### Sorizip — 중고 악기 거래 플랫폼
 `2025.11` · 3인 팀 · 숭실대학교 웹프로그래밍 · 회원 인증 · 게시글 관리
 
 <table>
@@ -149,7 +166,12 @@
 
 <a href="https://github.com/dongcheolpark/sorizip"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-### Others
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-others-dark.svg">
+  <img src="./assets/section-others-light.svg" alt="03 OTHERS" width="100%">
+</picture>
 
 <table>
   <tr>
@@ -178,26 +200,9 @@
 
 ## How I Work
 
-#### 에이전트 하네스 — 일은 맡기고, 판단은 남겼다
+### 에이전트 하네스 — 일은 맡기고, 판단은 남겼다
 `2026.07 ~` · 개인 · PinLog에서 시작해 FINCH와 취업 준비까지
 
 AI 코딩 에이전트에게 구현과 문서와 기록을 맡기면서, 무엇을 맡기고 무엇을 사람이 쥘지를 정해 둔 운영 방식입니다.
 
 <a href="https://github.com/TrossYou/portfolio/blob/main/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
-
-<br>
-
-## Contact
-
-<table>
-  <tr>
-    <td width="96" valign="middle"><b>Email</b></td>
-    <td valign="middle"><code>seungju.you1@gmail.com</code></td>
-    <td valign="middle"><a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Send_Mail-4C6CB3?style=for-the-badge&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/Send_Mail-2E4A8B?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Mail"></picture></a></td>
-  </tr>
-  <tr>
-    <td width="96" valign="middle"><b>Portfolio</b></td>
-    <td valign="middle">포트폴리오 사이트 · 프로젝트별 케이스 스터디</td>
-    <td valign="middle"><a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit_Site-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Visit_Site-2E4A8B?style=for-the-badge" alt="Visit Site"></picture></a></td>
-  </tr>
-</table>
