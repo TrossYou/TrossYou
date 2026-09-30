@@ -67,7 +67,7 @@
   <img src="./assets/section-frontend-light.svg" alt="01 FRONTEND" width="100%">
 </picture>
 
-#### 01-1 · FINCH — AI 비서가 있는 증권 앱
+#### FINCH — AI 비서가 있는 증권 앱
 `2026.08 ~ 09` · 5인 팀 · SSAFY · 프론트엔드 구현 전반
 
 <table>
@@ -91,7 +91,7 @@
 
 <a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://youtu.be/4Cbu0-vMve4"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-#### 01-2 · PinLog — AI 장소 기록 서비스
+#### PinLog — AI 장소 기록 서비스
 `2026.07 ~ 08` · 6인 팀 · SSAFY · 프론트엔드 기능 구현
 
 <table>
@@ -122,7 +122,7 @@
   <img src="./assets/section-fullstack-light.svg" alt="02 FULL-STACK" width="100%">
 </picture>
 
-#### 02-1 · formabridge — 음악 SNS 서비스
+#### formabridge — 음악 SNS 서비스
 `2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 출품 · 풀스택
 
 <table>
@@ -142,7 +142,7 @@
 
 <a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-#### 02-2 · Sorizip — 중고 악기 거래 플랫폼
+#### Sorizip — 중고 악기 거래 플랫폼
 `2025.11` · 3인 팀 · 숭실대학교 웹프로그래밍 · 회원 인증 · 게시글 관리
 
 <table>
