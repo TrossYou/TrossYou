@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="64" viewBox="0 0 1040 64" role="img" aria-label="02 FULL-STACK — 화면부터 서버·배포까지 맡은 프로젝트">
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="92" viewBox="0 0 1040 92" role="img" aria-label="02 FULL-STACK — 화면부터 서버·배포까지 맡은 프로젝트">
 <style>text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif}</style>
-<text x="0" y="30" font-size="15" font-weight="600" letter-spacing="1" fill="#6E7681">02</text>
-<text x="40" y="30" font-size="18" font-weight="800" letter-spacing="3" fill="#9FB1D4">FULL-STACK</text>
-<rect x="220" y="24" width="820" height="1" fill="#3D444D"/>
-<text x="40" y="54" font-size="13" fill="#9198A1">화면부터 서버·배포까지 맡은 프로젝트</text>
+<text x="520" y="20" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2" fill="#6E7681">02</text>
+<rect x="339" y="45" width="72" height="1" fill="#3D444D"/>
+<text x="520" y="52" text-anchor="middle" font-size="18" font-weight="800" letter-spacing="4" fill="#9FB1D4">FULL-STACK</text>
+<rect x="629" y="45" width="72" height="1" fill="#3D444D"/>
+<text x="520" y="80" text-anchor="middle" font-size="13" fill="#9198A1">화면부터 서버·배포까지 맡은 프로젝트</text>
 </svg>
