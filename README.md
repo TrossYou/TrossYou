@@ -52,7 +52,9 @@
 
 ## Projects
 
-### FINCH — AI 비서가 있는 증권 앱
+### Frontend
+
+#### FINCH — AI 비서가 있는 증권 앱
 `2026.08 ~ 09` · 5인 팀 · SSAFY · 프론트엔드 구현 전반
 
 <table>
@@ -65,14 +67,18 @@
     <td>아는 에러 코드일 때만 재발급하도록 인증 인터셉터의 방어 방향을 잡음</td>
   </tr>
   <tr>
+    <td width="72" valign="top"><b>기여</b></td>
+    <td>프론트엔드 영역 커밋 692건 중 510건(74%)</td>
+  </tr>
+  <tr>
     <td width="72" valign="top"><b>스택</b></td>
     <td><code>React</code> <code>TypeScript</code> <code>TanStack Query</code> <code>Zustand</code> <code>Zod</code> <code>MSW</code></td>
   </tr>
 </table>
 
-<a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+<a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://youtu.be/4Cbu0-vMve4"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-### PinLog — AI 장소 기록 서비스
+#### PinLog — AI 장소 기록 서비스
 `2026.07 ~ 08` · 6인 팀 · SSAFY · 프론트엔드 기능 구현
 
 <table>
@@ -94,10 +100,12 @@
   </tr>
 </table>
 
-<a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+<a href="https://youtu.be/lD5MbHL9TZ8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-### formabridge — 음악 SNS 서비스
-`2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 · 프론트엔드 · 배포
+### Full-stack
+
+#### formabridge — 음악 SNS 서비스
+`2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 출품 · 풀스택
 
 <table>
   <tr>
@@ -116,7 +124,31 @@
 
 <a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
-### Side Projects
+#### Sorizip — 중고 악기 거래 플랫폼
+`2025.11` · 3인 팀 · 숭실대학교 웹프로그래밍 · 회원 인증 · 게시글 관리
+
+<table>
+  <tr>
+    <td width="72" valign="top"><b>구현</b></td>
+    <td>처음 다룬 JSP/Servlet으로 회원 인증과 게시글 관리</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>속도</b></td>
+    <td>첫 커밋에서 담당 기능 완료까지 6일</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>기여</b></td>
+    <td>담당 커밋 64건 중 13건 · 과목 최종 A+(98점)</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>스택</b></td>
+    <td><code>Java 17</code> <code>JSP</code> <code>Servlet</code> <code>Tomcat</code> <code>MySQL</code> <code>HikariCP</code></td>
+  </tr>
+</table>
+
+<a href="https://github.com/dongcheolpark/sorizip"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+
+### Others
 
 <table>
   <tr>
@@ -140,6 +172,17 @@
     </td>
   </tr>
 </table>
+
+<br>
+
+## How I Work
+
+#### 에이전트 하네스 — 일은 맡기고, 판단은 남겼다
+`2026.07 ~` · 개인 · PinLog에서 시작해 FINCH와 취업 준비까지
+
+AI 코딩 에이전트에게 구현과 문서와 기록을 맡기면서, 무엇을 맡기고 무엇을 사람이 쥘지를 정해 둔 운영 방식입니다.
+
+<a href="https://github.com/TrossYou/portfolio/blob/main/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
 
 <br>
 
