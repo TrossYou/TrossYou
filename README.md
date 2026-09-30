@@ -63,8 +63,8 @@
 ## Projects
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-frontend-dark.svg">
-  <img src="./assets/section-frontend-light.svg" alt="FRONTEND" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-frontend-dark.svg">
+  <img src="./assets/header-frontend-light.svg" alt="FRONTEND" width="100%">
 </picture>
 
 #### FINCH — AI 비서가 있는 증권 앱
@@ -118,8 +118,8 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-fullstack-dark.svg">
-  <img src="./assets/section-fullstack-light.svg" alt="FULL-STACK" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-fullstack-dark.svg">
+  <img src="./assets/header-fullstack-light.svg" alt="FULL-STACK" width="100%">
 </picture>
 
 #### formabridge — 음악 SNS 서비스
@@ -169,8 +169,8 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-others-dark.svg">
-  <img src="./assets/section-others-light.svg" alt="OTHERS" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-others-dark.svg">
+  <img src="./assets/header-others-light.svg" alt="OTHERS" width="100%">
 </picture>
 
 <table>
