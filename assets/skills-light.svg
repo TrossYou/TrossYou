@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 526" width="820" height="526" role="img" aria-label="스킬 별점">
+<text x="0" y="22" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" letter-spacing="1.2" fill="#5d6270">프론트엔드</text>
+<text x="0" y="59.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">React</text>
+<rect x="170.0" y="49.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="290.0" y="49.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="410.0" y="49.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="530.0" y="49.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="650.0" y="49.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="59.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">4/5</text>
+<text x="0" y="99.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">TypeScript</text>
+<rect x="170.0" y="89.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="290.0" y="89.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="410.0" y="89.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="530.0" y="89.0" width="114.0" height="10" rx="3" fill="#2e4a8b"/>
+<rect x="650.0" y="89.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="99.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">4/5</text>
+<text x="0" y="139.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">Tailwind CSS</text>
+<rect x="170.0" y="129.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="129.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="129.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="129.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="129.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="139.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="179.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">TanStack Query</text>
+<rect x="170.0" y="169.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="169.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="169.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="169.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="169.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="179.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="219.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">Zustand</text>
+<rect x="170.0" y="209.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="209.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="209.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="209.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="209.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="219.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="259.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">Router</text>
+<rect x="170.0" y="249.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="249.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="249.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="249.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="249.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="259.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="299.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">MSW</text>
+<rect x="170.0" y="289.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="289.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="289.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="289.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="289.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="299.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="339.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">Vite</text>
+<rect x="170.0" y="329.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="329.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="329.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="329.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="329.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="339.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="386" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" letter-spacing="1.2" fill="#5d6270">백엔드</text>
+<text x="0" y="423.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">Java</text>
+<rect x="170.0" y="413.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="413.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="413.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="413.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="413.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="423.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="463.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#1c1f27">Remix</text>
+<rect x="170.0" y="453.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="290.0" y="453.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="410.0" y="453.0" width="114.0" height="10" rx="3" fill="#b9c7f2"/>
+<rect x="530.0" y="453.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<rect x="650.0" y="453.0" width="114.0" height="10" rx="3" fill="#e2e4ea"/>
+<text x="820" y="463.0" text-anchor="end" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#5d6270">3/5</text>
+<text x="0" y="506" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="13" fill="#5d6270">써 본 것: Spring Boot · Prisma · PostgreSQL · Docker · Kubernetes · GitHub Actions · Vitest · JSP</text>
+</svg>
