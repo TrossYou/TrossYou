@@ -27,14 +27,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about2-dark.svg">
-  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 위치 서울 · 프론트엔드 영역 커밋 510/692 · 검색 결과 서체 준비 시간 913ms→149ms · 파트 간 문의 105건" width="100%">
+  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 프론트엔드 영역 커밋 510/692 · 검색 결과 서체 준비 시간 913ms→149ms · 파트 간 문의 105건" width="100%">
 </picture>
 
 <br>
 
 ## Skills
 
-자주 쓴 것과 써 본 것을 나눴습니다. 4는 두 프로젝트 이상에서 핵심 화면을 전담, 3은 한 프로젝트에서 실사용. 5는 쓰지 않습니다.
+자주 쓴 것과 써 본 것을 나눴습니다.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">

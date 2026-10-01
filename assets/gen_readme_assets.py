@@ -135,27 +135,38 @@ def tl(c):
 
 # ------------------------------------------------------------------ skills
 def sk(c):
-    rows, y = [], 0
-    ROW, NAME_W, LEVEL_W, PAD = 40, 170, 48, 8
-    last = None
+    """묶음을 나란한 열로. 각 줄은 이름과 점 다섯 개. 사이트의 SkillBar 와 같은 모양"""
+    groups = []
     for s in skills["rated"]:
-        if s["group"] != last:
-            y += 10 if last else 0
-            rows.append(text(0, y + 22, s["group"], 12, c["muted"], 500, MONO, spacing="1.2"))
-            y += 34; last = s["group"]
-        cy = y + ROW / 2
-        rows.append(text(0, cy + 5, s["name"], 15, c["ink"], 600))
-        bar_w = W - NAME_W - LEVEL_W - PAD
-        seg = (bar_w - 4 * 6) / 5
-        for i in range(5):
-            on = i < s["level"]
-            fill = (c["accent"] if s["level"] >= 4 else c["strong"]) if on else c["line"]
-            rows.append(f'<rect x="{NAME_W + i*(seg+6):.1f}" y="{cy-5}" width="{seg:.1f}" height="10" rx="3" fill="{fill}"/>')
-        rows.append(text(W, cy + 5, f'{s["level"]}/5', 13, c["muted"], 400, MONO, "end"))
-        y += ROW
-    y += 14
-    rows.append(text(0, y + 14, "써 본 것: " + " · ".join(skills["used"]), 13, c["muted"]))
-    return svg(y + 34, rows, "스킬 별점")
+        if not groups or groups[-1][0] != s["group"]:
+            groups.append((s["group"], []))
+        groups[-1][1].append(s)
+    GAP, ROW = 48, 36
+    col_w = (W - GAP * (len(groups) - 1)) / len(groups)
+    rows, max_y = [], 0
+    for gi, (g, items) in enumerate(groups):
+        x0 = gi * (col_w + GAP)
+        rows.append(text(x0, 14, g, 12, c["muted"], 500, MONO, spacing="1.2"))
+        y = 30
+        for s in items:
+            cy = y + ROW / 2
+            rows.append(text(x0, cy + 5, s["name"], 15, c["ink"], 600))
+            r, gap = 4.5, 5
+            dots_w = 5 * (2 * r) + 4 * gap
+            dx0 = x0 + col_w - dots_w + r
+            for i in range(5):
+                on = i < s["level"]
+                strong = s["level"] >= 4
+                fill = (c["accent"] if strong else c["strong"]) if on else "none"
+                stroke = c["accent"] if strong else c["strong"]
+                rows.append(f'<circle cx="{dx0 + i*(2*r+gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
+            y += ROW
+            rows.append(f'<rect x="{x0}" y="{y - 1}" width="{col_w:.0f}" height="1" fill="{c["line"]}"/>')
+        max_y = max(max_y, y)
+    y = max_y + 20
+    rows.append(text(0, y + 12, "써 본 것: " + " · ".join(skills["used"]), 12, c["muted"]))
+    rows.append(text(0, y + 32, skills["scale"], 12, c["muted"]))
+    return svg(y + 44, rows, "스킬 별점. " + skills["scale"])
 
 for theme, c in T.items():
     for name, fn in (("hero", hero), ("about2", about), ("timeline", tl), ("skills", sk)):
