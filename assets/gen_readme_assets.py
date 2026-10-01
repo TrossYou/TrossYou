@@ -100,14 +100,27 @@ def marker(c, x, y, kind, now):
         return f'<rect x="{x-5}" y="{y-5}" width="10" height="10" rx="2" fill="{f2}" stroke="{s2}" stroke-width="2" transform="rotate(45 {x} {y})"/>'
     return f'<circle cx="{x}" cy="{y}" r="6" fill="{fill}" stroke="{stroke}" stroke-width="2"/>'
 
-def tl(c):
+def wrap(s, size, max_w):
+    """어림 폭으로 줄을 나눈다. 공백에서만 끊는다"""
+    words, lines, cur = s.split(" "), [], ""
+    for w in words:
+        cand = (cur + " " + w).strip()
+        if cur and width_of(cand, size) > max_w:
+            lines.append(cur); cur = w
+        else:
+            cur = cand
+    if cur: lines.append(cur)
+    return lines
+
+def tl_column(c, items, x0, col_w):
+    """한 열. 레일 하나에 항목들. (요소들, 높이) 반환"""
     b, y = [], 8
-    rx, tx = 8, 36
+    rx, tx = x0 + 8, x0 + 36
+    text_w = col_w - 36
     starts = []
-    for it in timeline:
+    for it in items:
         top = y
         starts.append(top + 8)
-        # 날짜 + 종류 태그
         date = it["date"]
         b.append(text(tx, top + 13, date, 13, c["muted"], 400, MONO))
         dx = tx + width_of(date, 13) * 1.15 + 10
@@ -117,21 +130,28 @@ def tl(c):
         y = top + 36
         b.append(text(tx, y, it["title"], 15, c["ink"], 600))
         y += 6
-        if it.get("desc"):
+        for line in wrap(it.get("desc", ""), 14, text_w) if it.get("desc") else []:
             y += 20
-            b.append(text(tx, y, it["desc"], 14, c["ink"]))
+            b.append(text(tx, y, line, 14, c["ink"]))
         for d in it.get("details", []):
             y += 20
             b.append(f'<circle cx="{tx + 3}" cy="{y - 4}" r="2" fill="{c["muted"]}"/>')
             b.append(text(tx + 12, y, d, 13, c["ink"]))
         y += 26
-    total = y
-    # 레일과 표식은 글 위에
     rail = [f'<rect x="{rx-1}" y="{starts[0]}" width="2" height="{starts[-1]-starts[0]}" rx="1" fill="{c["strong"]}"/>']
-    for it, sy in zip(timeline, starts):
+    for it, sy in zip(items, starts):
         rail.append(marker(c, rx, sy, it["kind"], it.get("now", False)))
+    return rail + b, y
+
+def tl(c):
+    """두 열. 왼쪽이 과거, 오른쪽이 최근. 사이트의 Timeline columns=2 와 같은 배치"""
+    GAP = 48
+    col_w = (W - GAP) / 2
+    half = (len(timeline) + 1) // 2
+    left, hl = tl_column(c, timeline[:half], 0, col_w)
+    right, hr = tl_column(c, timeline[half:], col_w + GAP, col_w)
     label = " · ".join(f'{i["date"]} {i["kind"]} {i["title"]}' for i in timeline)
-    return svg(total, rail + b, "활동 타임라인: " + label)
+    return svg(max(hl, hr), left + right, "활동 타임라인: " + label)
 
 # ------------------------------------------------------------------ skills
 def sk(c):
