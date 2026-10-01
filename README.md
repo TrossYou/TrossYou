@@ -123,16 +123,16 @@
 </picture>
 
 #### formabridge — 음악 SNS 서비스
-`2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 출품 · 풀스택
+`2025.03 ~ 11` · 4인 팀 · K-PaaS 공모전 출품 · 풀스택 · 배치 자동화
 
 <table>
   <tr>
     <td width="72" valign="top"><b>구현</b></td>
-    <td>Google OAuth + JWT, Spotify API 연동, 팔로우 시스템, 모바일 반응형 UI</td>
+    <td>Google OAuth + JWT 인증, 메모 · 검색 · 팔로우 기능(Remix loader/action · Prisma 모델까지), Spotify API 연동, 모바일 반응형 UI</td>
   </tr>
   <tr>
-    <td width="72" valign="top"><b>배포</b></td>
-    <td>Docker · K8s · GitHub Actions로 배포 파이프라인 구축</td>
+    <td width="72" valign="top"><b>배치</b></td>
+    <td>스크립트를 추가하면 이미지 빌드 → K8s Job 실행 → 완료 대기·로그까지 이어지는 배치 파이프라인(GitHub Actions)</td>
   </tr>
   <tr>
     <td width="72" valign="top"><b>스택</b></td>
