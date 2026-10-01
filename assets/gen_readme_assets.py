@@ -61,11 +61,10 @@ def hero(c):
 # ------------------------------------------------------------------ about
 def about(c):
     b = []
-    cells = [("교육", "SSAFY 15기 · 2026.01–12"), ("학력", "숭실대학교 컴퓨터학부 졸업"), ("자격", "정보처리기사 · SQLD · TOPCIT 수준 3"), ("위치", "서울, UTC+9")]
+    # 열 폭은 값 길이에 맞춘다. 네 번째 칸(위치)은 사이트 Contact 에 있으니 여기서는 뺀다
+    cells = [("교육", "SSAFY 15기 · 2026.01–12", 0), ("학력", "숭실대학교 컴퓨터학부 졸업", 250), ("자격", "정보처리기사 · SQLD · TOPCIT 수준 3", 520)]
     b.append(f'<rect x="0" y="0" width="{W}" height="1" fill="{c["line"]}"/>')
-    cw = W / 4
-    for i, (k, v) in enumerate(cells):
-        x = int(i * cw)
+    for k, v, x in cells:
         b.append(text(x, 30, k.upper(), 12, c["muted"], 500, MONO, spacing="1.2"))
         b.append(text(x, 54, v, 14, c["ink"], 500))
     b.append(f'<rect x="0" y="72" width="{W}" height="1" fill="{c["line"]}"/>')

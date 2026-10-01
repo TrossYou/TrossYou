@@ -2,12 +2,10 @@
 <rect x="0" y="0" width="820" height="1" fill="#2a2d36"/>
 <text x="0" y="30" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">교육</text>
 <text x="0" y="54" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#e9eaee" text-anchor="start">SSAFY 15기 · 2026.01–12</text>
-<text x="205" y="30" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">학력</text>
-<text x="205" y="54" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#e9eaee" text-anchor="start">숭실대학교 컴퓨터학부 졸업</text>
-<text x="410" y="30" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">자격</text>
-<text x="410" y="54" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#e9eaee" text-anchor="start">정보처리기사 · SQLD · TOPCIT 수준 3</text>
-<text x="615" y="30" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">위치</text>
-<text x="615" y="54" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#e9eaee" text-anchor="start">서울, UTC+9</text>
+<text x="250" y="30" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">학력</text>
+<text x="250" y="54" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#e9eaee" text-anchor="start">숭실대학교 컴퓨터학부 졸업</text>
+<text x="520" y="30" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">자격</text>
+<text x="520" y="54" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="14" font-weight="500" fill="#e9eaee" text-anchor="start">정보처리기사 · SQLD · TOPCIT 수준 3</text>
 <rect x="0" y="72" width="820" height="1" fill="#2a2d36"/>
 <rect x="0" y="92" width="263" height="118" rx="14" fill="#17191f" stroke="#2a2d36"/>
 <text x="20.0" y="136" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="30" font-weight="600" fill="#9db1ec" text-anchor="start">510</text>
