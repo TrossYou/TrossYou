@@ -132,7 +132,7 @@
   </tr>
   <tr>
     <td width="72" valign="top"><b>배치</b></td>
-    <td>스크립트를 추가하면 이미지 빌드 → K8s Job 실행 → 완료 대기·로그까지 이어지는 배치 파이프라인(GitHub Actions)</td>
+    <td>Spotify ID 백필 배치 스크립트와, 그것을 GitHub Actions에서 K8s Job으로 실행하는 공통 러너·워크플로 작성</td>
   </tr>
   <tr>
     <td width="72" valign="top"><b>스택</b></td>
