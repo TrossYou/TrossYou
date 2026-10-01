@@ -112,7 +112,7 @@ def wrap(s, size, max_w):
     if cur: lines.append(cur)
     return lines
 
-def tl_column(c, items, x0, col_w):
+def tl_column(c, items, x0, col_w, col_id, fade_in):
     """한 열. 레일 하나에 항목들. (요소들, 높이) 반환"""
     b, y = [], 8
     rx, tx = x0 + 8, x0 + 36
@@ -138,7 +138,11 @@ def tl_column(c, items, x0, col_w):
             b.append(f'<circle cx="{tx + 3}" cy="{y - 4}" r="2" fill="{c["muted"]}"/>')
             b.append(text(tx + 12, y, d, 13, c["ink"]))
         y += 26
-    rail = [f'<rect x="{rx-1}" y="{starts[0]}" width="2" height="{starts[-1]-starts[0]}" rx="1" fill="{c["strong"]}"/>']
+    # 레일은 마지막 표식 아래로 더 내려가며 배경으로 스며든다. 둘째 열은 위에서 스며들어 온다
+    top = -8 if fade_in else starts[0]
+    bottom = y + 8
+    grad = f"url(#rail-{col_id})"
+    rail = [f'<rect x="{rx-1}" y="{top}" width="2" height="{bottom - top}" rx="1" fill="{grad}"/>']
     for it, sy in zip(items, starts):
         rail.append(marker(c, rx, sy, it["kind"], it.get("now", False)))
     return rail + b, y
@@ -148,42 +152,48 @@ def tl(c):
     GAP = 48
     col_w = (W - GAP) / 2
     half = (len(timeline) + 1) // 2
-    left, hl = tl_column(c, timeline[:half], 0, col_w)
-    right, hr = tl_column(c, timeline[half:], col_w + GAP, col_w)
+    left, hl = tl_column(c, timeline[:half], 0, col_w, "l", fade_in=False)
+    right, hr = tl_column(c, timeline[half:], col_w + GAP, col_w, "r", fade_in=True)
+    defs = f'''<defs>
+<linearGradient id="rail-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["strong"]}"/><stop offset="0.82" stop-color="{c["strong"]}"/><stop offset="1" stop-color="{c["strong"]}" stop-opacity="0"/></linearGradient>
+<linearGradient id="rail-r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["strong"]}" stop-opacity="0"/><stop offset="0.14" stop-color="{c["strong"]}"/><stop offset="0.82" stop-color="{c["strong"]}"/><stop offset="1" stop-color="{c["strong"]}" stop-opacity="0"/></linearGradient>
+</defs>'''
     label = " · ".join(f'{i["date"]} {i["kind"]} {i["title"]}' for i in timeline)
-    return svg(max(hl, hr), left + right, "활동 타임라인: " + label)
+    return svg(max(hl, hr) + 16, [defs] + left + right, "활동 타임라인: " + label)
 
 # ------------------------------------------------------------------ skills
 def sk(c):
-    """묶음을 나란한 열로. 각 줄은 이름과 점 다섯 개. 사이트의 SkillBar 와 같은 모양"""
+    """묶음 머리는 한 줄 전체, 항목은 두 열로 흐른다. 점은 이름 바로 옆. 사이트의 SkillBar 와 같은 모양"""
     groups = []
     for s in skills["rated"]:
         if not groups or groups[-1][0] != s["group"]:
             groups.append((s["group"], []))
         groups[-1][1].append(s)
-    GAP, ROW = 48, 36
-    col_w = (W - GAP * (len(groups) - 1)) / len(groups)
-    rows, max_y = [], 0
+    GAP, ROW, NAME_W = 48, 36, 150
+    col_w = (W - GAP) / 2
+    rows, y = [], 0
     for gi, (g, items) in enumerate(groups):
-        x0 = gi * (col_w + GAP)
-        rows.append(text(x0, 14, g, 12, c["muted"], 500, MONO, spacing="1.2"))
-        y = 30
-        for s in items:
+        y += 0 if gi == 0 else 24
+        rows.append(text(0, y + 14, g, 12, c["muted"], 500, MONO, spacing="1.2"))
+        y += 24
+        for i, s in enumerate(items):
+            col = i % 2
+            if col == 0 and i > 0:
+                y += ROW
+            x0 = col * (col_w + GAP)
             cy = y + ROW / 2
             rows.append(text(x0, cy + 5, s["name"], 15, c["ink"], 600))
             r, gap = 4.5, 5
-            dots_w = 5 * (2 * r) + 4 * gap
-            dx0 = x0 + col_w - dots_w + r
-            for i in range(5):
-                on = i < s["level"]
+            dx0 = x0 + NAME_W + r
+            for k in range(5):
+                on = k < s["level"]
                 strong = s["level"] >= 4
                 fill = (c["accent"] if strong else c["strong"]) if on else "none"
                 stroke = c["accent"] if strong else c["strong"]
-                rows.append(f'<circle cx="{dx0 + i*(2*r+gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
-            y += ROW
-            rows.append(f'<rect x="{x0}" y="{y - 1}" width="{col_w:.0f}" height="1" fill="{c["line"]}"/>')
-        max_y = max(max_y, y)
-    y = max_y + 20
+                rows.append(f'<circle cx="{dx0 + k*(2*r+gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
+            rows.append(f'<rect x="{x0}" y="{y + ROW - 1}" width="{col_w:.0f}" height="1" fill="{c["line"]}"/>')
+        y += ROW
+    y += 20
     rows.append(text(0, y + 12, "써 본 것: " + " · ".join(skills["used"]), 12, c["muted"]))
     rows.append(text(0, y + 32, skills["scale"], 12, c["muted"]))
     return svg(y + 44, rows, "스킬 별점. " + skills["scale"])
