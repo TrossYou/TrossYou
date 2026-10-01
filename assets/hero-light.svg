@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 176" width="820" height="176" role="img" aria-label="유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자입니다 · 검색 결과 서체 준비 시간 913ms → 149ms">
+<rect x="0" y="22" width="24" height="2" fill="#2e4a8b"/>
+<text x="34" y="27" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#5d6270" text-anchor="start" letter-spacing="1.6">FRONTEND DEVELOPER</text>
+<text x="0" y="84" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="48" font-weight="700" fill="#1c1f27" text-anchor="start">유승주</text>
+<text x="150" y="84" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="22" font-weight="400" fill="#5d6270" text-anchor="start">(TrossYou)</text>
+<text x="0" y="128" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="18" fill="#1c1f27">무엇을 결정했고, 무엇이 <tspan fill="#2e4a8b" font-weight="600">틀렸고</tspan>, 무엇을 남겼는지</text>
+<text x="0" y="156" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="18" font-weight="400" fill="#1c1f27" text-anchor="start">적어 두는 프론트엔드 개발자입니다.</text>
+<rect x="560" y="10" width="260" height="150" rx="14" fill="#ffffff" stroke="#e2e4ea"/>
+<text x="584" y="44" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="13" font-weight="500" fill="#1c1f27" text-anchor="start">검색 결과 서체 준비 시간</text>
+<text x="584" y="64" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#5d6270" text-anchor="start">PinLog · Chrome 성능 패널</text>
+<text x="584" y="114" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="18" font-weight="400" fill="#5d6270" text-anchor="start">913ms</text>
+<text x="652" y="114" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="18" font-weight="400" fill="#5d6270" text-anchor="start">→</text>
+<text x="678" y="116" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="36" font-weight="600" fill="#2e4a8b" text-anchor="start">149</text>
+<text x="750" y="114" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="18" font-weight="400" fill="#5d6270" text-anchor="start">ms</text>
+<rect x="584" y="134" width="212" height="4" rx="2" fill="#e2e4ea"/>
+<rect x="584" y="134" width="34" height="4" rx="2" fill="#2e4a8b"/>
+</svg>
