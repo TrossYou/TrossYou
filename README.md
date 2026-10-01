@@ -113,7 +113,7 @@
   </tr>
 </table>
 
-<a href="https://youtu.be/lD5MbHL9TZ8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+<a href="https://youtu.be/lD5MbHL9TZ8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
 <br>
 
@@ -140,7 +140,7 @@
   </tr>
 </table>
 
-<a href="https://github.com/TrossYou/portfolio/blob/main/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
 
 #### Sorizip — 중고 악기 거래 플랫폼
 `2025.11` · 3인 팀 · 숭실대학교 웹프로그래밍 · 회원 인증 · 게시글 관리
@@ -205,4 +205,4 @@
 
 AI 코딩 에이전트에게 구현과 문서와 기록을 맡기면서, 무엇을 맡기고 무엇을 사람이 쥘지를 정해 둔 운영 방식입니다.
 
-<a href="https://github.com/TrossYou/portfolio/blob/main/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
+<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
