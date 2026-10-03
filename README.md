@@ -12,11 +12,9 @@
 </p>
 
 <p align="center">
-<a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Visit_Site-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Visit_Site-2E4A8B?style=for-the-badge" alt="Visit Site"></picture></a>
-<a href="https://github.com/TrossYou/portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Studies-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Studies-2E4A8B?style=for-the-badge" alt="Case Studies"></picture></a>
-<a href="mailto:seungju.you1@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Send_Mail-4C6CB3?style=for-the-badge&logo=gmail&logoColor=white"><img src="https://img.shields.io/badge/Send_Mail-2E4A8B?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Mail"></picture></a>
-<br>
-<code>seungju.you1@gmail.com</code>
+<a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Portfolio-2E4A8B?style=for-the-badge" alt="Portfolio"></picture></a>
+<br><br>
+<a href="mailto:seungju.you1@gmail.com"><code>seungju.you1@gmail.com</code></a>
 </p>
 
 <br>
@@ -50,11 +48,7 @@
   <img src="./assets/header-frontend-light.svg" alt="FRONTEND" width="100%">
 </picture>
 
-**FINCH** · 대표 프로젝트
-
-### 내 계좌와 성향을 읽고 투자 판단을 돕는 AI 비서가 있는 증권 앱
-
-`2026.08–09 · 6주 · 5인 · SSAFY 특화 · 프론트엔드 구현 전반`
+### <sub>FINCH · 대표 프로젝트</sub><br>내 계좌와 성향을 읽고 투자 판단을 돕는 AI 비서가 있는 증권 앱<br><sub>2026.08–09 · 6주 · 5인 · SSAFY 특화 · 프론트엔드 구현 전반</sub>
 
 <table>
   <tr>
@@ -79,11 +73,7 @@
 
 <br>
 
-**PinLog**
-
-### 장소 이름이 기억나지 않아도 경험과 감정으로 다시 찾는 AI 장소 기록 서비스
-
-`2026.07–08 · 5주 · 6인 · SSAFY 공통 · 프론트엔드 기능 구현`
+### <sub>PinLog</sub><br>장소 이름이 기억나지 않아도 경험과 감정으로 다시 찾는 AI 장소 기록 서비스<br><sub>2026.07–08 · 5주 · 6인 · SSAFY 공통 · 프론트엔드 기능 구현</sub>
 
 <table>
   <tr>
@@ -113,11 +103,7 @@
   <img src="./assets/header-fullstack-light.svg" alt="FULL-STACK" width="100%">
 </picture>
 
-**formabridge**
-
-### 좋아하는 음악을 기록하는 음악 SNS 서비스
-
-`2025.03–11 · 4인 · K-PaaS 공모전 · 풀스택 · 배치 자동화`
+### <sub>formabridge</sub><br>좋아하는 음악을 기록하는 음악 SNS 서비스<br><sub>2025.03–11 · 4인 · K-PaaS 공모전 · 풀스택 · 배치 자동화</sub>
 
 <table>
   <tr>
@@ -142,11 +128,7 @@
 
 <br>
 
-**Sorizip**
-
-### 중고 악기 거래 플랫폼
-
-`2025.11 · 3인 · 숭실대 웹프로그래밍 · 회원 인증 · 게시글 관리`
+### <sub>Sorizip</sub><br>중고 악기 거래 플랫폼<br><sub>2025.11 · 3인 · 숭실대 웹프로그래밍 · 회원 인증 · 게시글 관리</sub>
 
 <table>
   <tr>

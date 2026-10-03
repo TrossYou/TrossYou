@@ -33,30 +33,29 @@ def svg(h, body, label):
 
 # ------------------------------------------------------------------ hero
 def hero(c):
+    """이름과 통계 타일을 한 단계 작게. 좌우에 PAD 만큼 여백을 둬 README 본문 가장자리에 붙지 않게 한다"""
+    PAD = 24
     b = []
-    # 아이브로우: 짧은 선 + 영문 대문자 mono
-    b.append(f'<rect x="0" y="22" width="24" height="2" fill="{c["accent"]}"/>')
-    b.append(text(34, 27, "FRONTEND DEVELOPER", 12, c["muted"], 500, MONO, spacing="1.6"))
-    # 이름
-    b.append(text(0, 84, "유승주", 48, c["ink"], 700))
-    b.append(text(150, 84, "(TrossYou)", 22, c["muted"], 400))
-    # 한 문장. 핵심 단어는 accent-text
-    y = 128
-    b.append(f'<text x="0" y="{y}" font-family="{SANS}" font-size="18" fill="{c["ink"]}">무엇을 결정했고, 무엇이 <tspan fill="{c["atext"]}" font-weight="600">틀렸고</tspan>, 무엇을 남겼는지</text>')
-    b.append(text(0, y + 28, "적어 두는 프론트엔드 개발자입니다.", 18, c["ink"]))
+    b.append(f'<rect x="{PAD}" y="18" width="20" height="2" fill="{c["accent"]}"/>')
+    b.append(text(PAD + 30, 23, "FRONTEND DEVELOPER", 11, c["muted"], 500, MONO, spacing="1.4"))
+    b.append(text(PAD, 66, "유승주", 34, c["ink"], 700))
+    b.append(text(PAD + 112, 66, "(TrossYou)", 17, c["muted"], 400))
+    y = 102
+    b.append(f'<text x="{PAD}" y="{y}" font-family="{SANS}" font-size="16" fill="{c["ink"]}">무엇을 결정했고, 무엇이 <tspan fill="{c["atext"]}" font-weight="600">틀렸고</tspan>, 무엇을 남겼는지</text>')
+    b.append(text(PAD, y + 25, "적어 두는 프론트엔드 개발자입니다.", 16, c["ink"]))
     # 오른쪽 통계 타일 (surface + line, radius 14)
-    tx, ty, tw, th = 560, 10, 260, 150
+    tw, th = 224, 116
+    tx, ty = W - PAD - tw, 12
     b.append(f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="14" fill="{c["surface"]}" stroke="{c["line"]}"/>')
-    b.append(text(tx + 24, ty + 34, "검색 결과 서체 준비 시간", 13, c["ink"], 500))
-    b.append(text(tx + 24, ty + 54, "PinLog · Chrome 성능 패널", 12, c["muted"]))
-    b.append(text(tx + 24, ty + 104, "913ms", 18, c["muted"], 400, MONO))
-    b.append(text(tx + 92, ty + 104, "→", 18, c["muted"], 400, MONO))
-    b.append(text(tx + 118, ty + 106, "149", 36, c["atext"], 600, MONO))
-    b.append(text(tx + 190, ty + 104, "ms", 18, c["muted"], 400, MONO))
-    # 5칸 막대: 84% 단축을 칸으로 보여주지 않고, 그냥 리듬용 선 하나
-    b.append(f'<rect x="{tx + 24}" y="{ty + 124}" width="{tw - 48}" height="4" rx="2" fill="{c["line"]}"/>')
-    b.append(f'<rect x="{tx + 24}" y="{ty + 124}" width="{int((tw - 48) * 149 / 913)}" height="4" rx="2" fill="{c["accent"]}"/>')
-    return svg(176, b, "유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자입니다 · 검색 결과 서체 준비 시간 913ms → 149ms")
+    b.append(text(tx + 20, ty + 28, "검색 결과 서체 준비 시간", 12, c["ink"], 500))
+    b.append(text(tx + 20, ty + 45, "PinLog · Chrome 성능 패널", 11, c["muted"]))
+    b.append(text(tx + 20, ty + 82, "913ms", 14, c["muted"], 400, MONO))
+    b.append(text(tx + 72, ty + 82, "→", 14, c["muted"], 400, MONO))
+    b.append(text(tx + 92, ty + 84, "149", 28, c["atext"], 600, MONO))
+    b.append(text(tx + 150, ty + 82, "ms", 14, c["muted"], 400, MONO))
+    b.append(f'<rect x="{tx + 20}" y="{ty + 96}" width="{tw - 40}" height="3" rx="1.5" fill="{c["line"]}"/>')
+    b.append(f'<rect x="{tx + 20}" y="{ty + 96}" width="{int((tw - 40) * 149 / 913)}" height="3" rx="1.5" fill="{c["accent"]}"/>')
+    return svg(144, b, "유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자입니다 · 검색 결과 서체 준비 시간 913ms → 149ms")
 
 # ------------------------------------------------------------------ about
 def about(c):
@@ -88,16 +87,16 @@ def about(c):
 
 # ------------------------------------------------------------------ timeline
 def marker(c, x, y, kind, now):
-    fill = c["accent"] if now else c["surface"]
-    stroke = c["accent"]
-    if kind == "활동":
-        stroke = c["muted"]
+    """프로젝트는 빈 원(진행 중이면 남색 채움). 교육은 페리윙클 정사각형, 자격은 페리윙클 마름모, 수상은 잉크 마름모.
+    빈 도형끼리는 12px 에서 구분되지 않아 교육·자격은 채움으로도 가른다"""
     if kind == "교육":
-        return f'<rect x="{x-6}" y="{y-6}" width="12" height="12" rx="2" fill="{fill}" stroke="{stroke}" stroke-width="2"/>'
-    if kind in ("자격", "수상"):
-        f2 = c["ink"] if kind == "수상" else fill
-        s2 = c["ink"] if kind == "수상" else stroke
-        return f'<rect x="{x-5}" y="{y-5}" width="10" height="10" rx="2" fill="{f2}" stroke="{s2}" stroke-width="2" transform="rotate(45 {x} {y})"/>'
+        return f'<rect x="{x-6}" y="{y-6}" width="12" height="12" fill="{c["strong"]}"/>'
+    if kind == "자격":
+        return f'<rect x="{x-5}" y="{y-5}" width="10" height="10" fill="{c["strong"]}" transform="rotate(45 {x} {y})"/>'
+    if kind == "수상":
+        return f'<rect x="{x-5}" y="{y-5}" width="10" height="10" fill="{c["ink"]}" transform="rotate(45 {x} {y})"/>'
+    stroke = c["muted"] if kind == "활동" else c["accent"]
+    fill = c["accent"] if now else c["surface"]
     return f'<circle cx="{x}" cy="{y}" r="6" fill="{fill}" stroke="{stroke}" stroke-width="2"/>'
 
 def wrap(s, size, max_w):
@@ -124,9 +123,11 @@ def tl_column(c, items, x0, col_w, col_id, fade_in):
         date = it["date"]
         b.append(text(tx, top + 13, date, 13, c["muted"], 400, MONO))
         dx = tx + width_of(date, 13) * 1.15 + 10
-        kw = width_of(it["kind"], 12) + 20
-        b.append(f'<rect x="{dx:.0f}" y="{top - 2}" width="{kw:.0f}" height="20" rx="10" fill="{c["tint"]}"/>')
-        b.append(text(dx + 10, top + 12, it["kind"], 12, c["ink"], 500))
+        tl_w = 12 * 0.92 * len(it["kind"])
+        kw = tl_w + 20
+        chip = c["strong"] if it["kind"] in ("교육", "자격") else c["tint"]
+        b.append(f'<rect x="{dx:.0f}" y="{top - 2}" width="{kw:.0f}" height="20" rx="10" fill="{chip}"/>')
+        b.append(f'<text x="{dx + 10:.1f}" y="{top + 12}" font-family="{SANS}" font-size="12" font-weight="500" fill="{c["ink"]}" textLength="{tl_w:.1f}" lengthAdjust="spacingAndGlyphs">{esc(it["kind"])}</text>')
         y = top + 36
         b.append(text(tx, y, it["title"], 15, c["ink"], 600))
         y += 6
@@ -163,13 +164,14 @@ def tl(c):
 
 # ------------------------------------------------------------------ skills
 def sk(c):
-    """묶음 머리는 한 줄 전체, 항목은 두 열로 흐른다. 점은 이름 바로 옆. 사이트의 SkillBar 와 같은 모양"""
+    """묶음 머리는 한 줄 전체, 항목은 두 열로 흐른다. 점은 이름 바로 옆.
+    줄 밑선은 열마다 끊지 않고 전체 폭에 하나로 긋는다. 열 사이에서 선이 끊기면 가운데가 비어 보인다"""
     groups = []
     for s in skills["rated"]:
         if not groups or groups[-1][0] != s["group"]:
             groups.append((s["group"], []))
         groups[-1][1].append(s)
-    GAP, ROW, NAME_W = 48, 36, 150
+    GAP, ROW, NAME_W = 64, 36, 150
     col_w = (W - GAP) / 2
     rows, y = [], 0
     for gi, (g, items) in enumerate(groups):
@@ -191,12 +193,16 @@ def sk(c):
                 fill = (c["accent"] if strong else c["strong"]) if on else "none"
                 stroke = c["accent"] if strong else c["strong"]
                 rows.append(f'<circle cx="{dx0 + k*(2*r+gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
-            rows.append(f'<rect x="{x0}" y="{y + ROW - 1}" width="{col_w:.0f}" height="1" fill="{c["line"]}"/>')
+            if col == 0:
+                line_w = W if i + 1 < len(items) else col_w
+                rows.append(f'<rect x="0" y="{y + ROW - 1}" width="{line_w:.0f}" height="1" fill="{c["line"]}"/>')
         y += ROW
     y += 20
     rows.append(text(0, y + 12, "써 본 것: " + " · ".join(skills["used"]), 12, c["muted"]))
-    rows.append(text(0, y + 32, skills["scale"], 12, c["muted"]))
-    return svg(y + 44, rows, "스킬 별점. " + skills["scale"])
+    for line in skills["scale"].split(" · "):
+        y += 20
+        rows.append(text(0, y + 12, line, 12, c["muted"]))
+    return svg(y + 24, rows, "스킬 별점. " + skills["scale"])
 
 for theme, c in T.items():
     for name, fn in (("hero", hero), ("about2", about), ("timeline", tl), ("skills", sk)):
