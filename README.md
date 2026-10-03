@@ -48,7 +48,9 @@
   <img src="./assets/header-frontend-light.svg" alt="FRONTEND" width="100%">
 </picture>
 
-### <sub>FINCH · 대표 프로젝트</sub><br>내 계좌와 성향을 읽고 투자 판단을 돕는 AI 비서가 있는 증권 앱<br><sub>2026.08–09 · 6주 · 5인 · SSAFY 특화 · 프론트엔드 구현 전반</sub>
+### <sup>FINCH · 대표 프로젝트</sup><br>내 계좌와 성향을 읽고 투자 판단을 돕는 AI 비서가 있는 증권 앱
+
+`2026.08–09 · 6주 · 5인 · SSAFY 특화 · 프론트엔드 구현 전반`
 
 <table>
   <tr>
@@ -73,7 +75,9 @@
 
 <br>
 
-### <sub>PinLog</sub><br>장소 이름이 기억나지 않아도 경험과 감정으로 다시 찾는 AI 장소 기록 서비스<br><sub>2026.07–08 · 5주 · 6인 · SSAFY 공통 · 프론트엔드 기능 구현</sub>
+### <sup>PinLog</sup><br>장소 이름이 기억나지 않아도 경험과 감정으로 다시 찾는 AI 장소 기록 서비스
+
+`2026.07–08 · 5주 · 6인 · SSAFY 공통 · 프론트엔드 기능 구현`
 
 <table>
   <tr>
@@ -103,7 +107,9 @@
   <img src="./assets/header-fullstack-light.svg" alt="FULL-STACK" width="100%">
 </picture>
 
-### <sub>formabridge</sub><br>좋아하는 음악을 기록하는 음악 SNS 서비스<br><sub>2025.03–11 · 4인 · K-PaaS 공모전 · 풀스택 · 배치 자동화</sub>
+### <sup>formabridge</sup><br>좋아하는 음악을 기록하는 음악 SNS 서비스
+
+`2025.03–11 · 4인 · K-PaaS 공모전 · 풀스택 · 배치 자동화`
 
 <table>
   <tr>
@@ -128,7 +134,9 @@
 
 <br>
 
-### <sub>Sorizip</sub><br>중고 악기 거래 플랫폼<br><sub>2025.11 · 3인 · 숭실대 웹프로그래밍 · 회원 인증 · 게시글 관리</sub>
+### <sup>Sorizip</sup><br>중고 악기 거래 플랫폼
+
+`2025.11 · 3인 · 숭실대 웹프로그래밍 · 회원 인증 · 게시글 관리`
 
 <table>
   <tr>
@@ -201,25 +209,12 @@
 
 성향마다 근거를 하나씩 붙였습니다. 점수는 없습니다.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>스스로 일을 찾아서 한다</b><br><br>
-      백엔드 응답을 기다리는 동안 API 계약 문서와 목 서버를 먼저 만들어 팀 전원이 썼습니다.<br><br>
-      <sub>근거: <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#확정된-것과-가정한-것을-문서로-갈라-두고-먼저-만들었다">FINCH · 확정된 것과 가정한 것을 문서로 갈라 두고 먼저 만들었다</a></sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>파트 간 의사소통</b><br><br>
-      6주 동안 파트 간 문의 105건을 한 문서에 정리하고, 답이 어긋나면 고치기 전에 왜 어긋났는지부터 물었습니다.<br><br>
-      <sub>근거: <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#어긋난-것을-고치기-전에-왜-어긋났는지부터-물었다">FINCH · 어긋난 것을 고치기 전에, 왜 어긋났는지부터 물었다</a></sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>틀린 것을 기록한다</b><br><br>
-      제가 올리자고 한 이슈가 틀렸던 경위를 케이스 스터디에 그대로 남겼습니다.<br><br>
-      <sub>근거: <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#제가-올리자고-한-이슈가-틀렸다">FINCH · 제가 올리자고 한 이슈가 틀렸다</a></sub>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/how-dark.svg">
+  <img src="./assets/how-light.svg" alt="스스로 일을 찾아서 한다 · 파트 간 의사소통 · 틀린 것을 기록한다. 성향마다 FINCH 케이스 스터디의 근거 하나" width="100%">
+</picture>
+
+<sub>근거 · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#확정된-것과-가정한-것을-문서로-갈라-두고-먼저-만들었다">확정된 것과 가정한 것을 문서로 갈라 두고 먼저 만들었다</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#어긋난-것을-고치기-전에-왜-어긋났는지부터-물었다">어긋난 것을 고치기 전에, 왜 어긋났는지부터 물었다</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#제가-올리자고-한-이슈가-틀렸다">제가 올리자고 한 이슈가 틀렸다</a></sub>
 
 ### 에이전트 하네스
 

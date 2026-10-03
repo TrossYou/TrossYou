@@ -8,6 +8,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "..", "portfolio", "data")
 skills = json.load(io.open(os.path.join(DATA, "skills.json"), encoding="utf-8"))
 timeline = json.load(io.open(os.path.join(DATA, "timeline.json"), encoding="utf-8"))
+import re
+_site = io.open(os.path.join(DATA, "site.ts"), encoding="utf-8").read()
+traits = [dict(trait=m[0], evidence=m[1], label=m[2]) for m in re.findall(
+    r"trait: '([^']+)',\s*evidence: '([^']+)',\s*sourceLabel: '([^']+)'", _site)]
 
 T = {
     "light": dict(ground="#fafafa", surface="#ffffff", tint="#e7ecfa", strong="#b9c7f2", ink="#1c1f27", muted="#5d6270", line="#e2e4ea", accent="#2e4a8b", atext="#2e4a8b", on="#ffffff"),
@@ -134,10 +138,6 @@ def tl_column(c, items, x0, col_w, col_id, fade_in):
         for line in wrap(it.get("desc", ""), 14, text_w) if it.get("desc") else []:
             y += 20
             b.append(text(tx, y, line, 14, c["ink"]))
-        for d in it.get("details", []):
-            y += 20
-            b.append(f'<circle cx="{tx + 3}" cy="{y - 4}" r="2" fill="{c["muted"]}"/>')
-            b.append(text(tx + 12, y, d, 13, c["ink"]))
         y += 26
     # 레일은 마지막 표식 아래로 더 내려가며 배경으로 스며든다. 둘째 열은 위에서 스며들어 온다
     top = -8 if fade_in else starts[0]
@@ -149,44 +149,62 @@ def tl_column(c, items, x0, col_w, col_id, fade_in):
     return rail + b, y
 
 def tl(c):
-    """두 열. 왼쪽이 과거, 오른쪽이 최근. 사이트의 Timeline columns=2 와 같은 배치"""
+    """두 열. 왼쪽이 과거, 오른쪽이 최근. 자격은 축에 섞지 않고 맨 아래 한 줄에 칩으로 둔다.
+    자격은 기간이 없고 설명도 없어 축 위에서는 빈 칸만 늘린다"""
     GAP = 48
     col_w = (W - GAP) / 2
-    half = (len(timeline) + 1) // 2
-    left, hl = tl_column(c, timeline[:half], 0, col_w, "l", fade_in=False)
-    right, hr = tl_column(c, timeline[half:], col_w + GAP, col_w, "r", fade_in=True)
+    main = [i for i in timeline if i["kind"] != "자격"]
+    certs = [i for i in timeline if i["kind"] == "자격"]
+    half = (len(main) + 1) // 2
+    left, hl = tl_column(c, main[:half], 0, col_w, "l", fade_in=False)
+    right, hr = tl_column(c, main[half:], col_w + GAP, col_w, "r", fade_in=True)
+    y = max(hl, hr) + 8
+    b = []
+    b.append(f'<rect x="0" y="{y}" width="{W}" height="1" fill="{c["line"]}"/>')
+    y += 30
+    b.append(text(0, y, "자격", 12, c["muted"], 500, MONO, spacing="1.2"))
+    x = 60
+    for it in certs:
+        date, name = it["date"], it["title"]
+        dw = width_of(date, 12) * 1.15
+        nw = width_of(name, 13)
+        cw = 12 + dw + 8 + nw + 12
+        b.append(f'<rect x="{x:.0f}" y="{y - 14}" width="{cw:.0f}" height="22" rx="11" fill="{c["tint"]}"/>')
+        b.append(text(x + 12, y + 1, date, 12, c["muted"], 400, MONO))
+        b.append(text(x + 12 + dw + 8, y + 1, name, 13, c["ink"], 500))
+        x += cw + 10
     defs = f'''<defs>
 <linearGradient id="rail-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["strong"]}"/><stop offset="0.82" stop-color="{c["strong"]}"/><stop offset="1" stop-color="{c["strong"]}" stop-opacity="0"/></linearGradient>
 <linearGradient id="rail-r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c["strong"]}" stop-opacity="0"/><stop offset="0.14" stop-color="{c["strong"]}"/><stop offset="0.82" stop-color="{c["strong"]}"/><stop offset="1" stop-color="{c["strong"]}" stop-opacity="0"/></linearGradient>
 </defs>'''
     label = " · ".join(f'{i["date"]} {i["kind"]} {i["title"]}' for i in timeline)
-    return svg(max(hl, hr) + 16, [defs] + left + right, "활동 타임라인: " + label)
+    return svg(y + 16, [defs] + left + right + b, "활동 타임라인: " + label)
 
 # ------------------------------------------------------------------ skills
 def sk(c):
-    """묶음 머리는 한 줄 전체, 항목은 두 열로 흐른다. 점은 이름 바로 옆.
-    줄 밑선은 열마다 끊지 않고 전체 폭에 하나로 긋는다. 열 사이에서 선이 끊기면 가운데가 비어 보인다"""
+    """묶음 머리는 한 줄 전체, 항목은 두 열로 흐른다. 이름은 열 왼쪽 끝, 점은 열 오른쪽 끝(space-between).
+    줄 밑선은 전체 폭 하나. 기준은 맨 아래 오른쪽 정렬"""
     groups = []
     for s in skills["rated"]:
         if not groups or groups[-1][0] != s["group"]:
             groups.append((s["group"], []))
         groups[-1][1].append(s)
-    GAP, ROW, NAME_W = 64, 36, 150
-    col_w = (W - GAP) / 2
+    COLS, GAP, ROW = 2, 48, 36
+    col_w = (W - GAP * (COLS - 1)) / COLS
     rows, y = [], 0
     for gi, (g, items) in enumerate(groups):
         y += 0 if gi == 0 else 24
         rows.append(text(0, y + 14, g, 12, c["muted"], 500, MONO, spacing="1.2"))
         y += 24
         for i, s in enumerate(items):
-            col = i % 2
+            col = i % COLS
             if col == 0 and i > 0:
                 y += ROW
             x0 = col * (col_w + GAP)
             cy = y + ROW / 2
             rows.append(text(x0, cy + 5, s["name"], 15, c["ink"], 600))
             r, gap = 4.5, 5
-            dx0 = x0 + NAME_W + r
+            dx0 = x0 + col_w - (5 * 2 * r + 4 * gap) + r
             for k in range(5):
                 on = k < s["level"]
                 strong = s["level"] >= 4
@@ -194,18 +212,52 @@ def sk(c):
                 stroke = c["accent"] if strong else c["strong"]
                 rows.append(f'<circle cx="{dx0 + k*(2*r+gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
             if col == 0:
-                line_w = W if i + 1 < len(items) else col_w
+                n_in_row = min(COLS, len(items) - i)
+                line_w = n_in_row * col_w + (n_in_row - 1) * GAP
                 rows.append(f'<rect x="0" y="{y + ROW - 1}" width="{line_w:.0f}" height="1" fill="{c["line"]}"/>')
         y += ROW
     y += 20
     rows.append(text(0, y + 12, "써 본 것: " + " · ".join(skills["used"]), 12, c["muted"]))
+    y += 12
     for line in skills["scale"].split(" · "):
-        y += 20
-        rows.append(text(0, y + 12, line, 12, c["muted"]))
+        y += 18
+        rows.append(text(W, y + 12, line, 12, c["muted"], anchor="end"))
     return svg(y + 24, rows, "스킬 별점. " + skills["scale"])
 
+# ------------------------------------------------------------------ how i work
+def how(c):
+    """성향 카드 셋. 라벨, 한 일 한 문장, 출처. 링크는 SVG 안에 못 두므로 README 에서 그림 아래 글자로 건다"""
+    GAP = 16
+    n = len(traits)
+    cw = (W - GAP * (n - 1)) / n
+    pad, size = 20, 13
+    cols = []
+    maxh = 0
+    for i, t in enumerate(traits):
+        x = i * (cw + GAP)
+        body = []
+        y = 34
+        body.append(text(x + pad, y, t["trait"], 15, c["ink"], 600))
+        y += 14
+        for line in wrap(t["evidence"], size, cw - pad * 2):
+            y += 21
+            body.append(text(x + pad, y, line, size, c["ink"]))
+        y += 14
+        src = []
+        for line in wrap("근거 · " + t["label"], 11, cw - pad * 2):
+            y += 16
+            src.append(text(x + pad, y, line, 11, c["muted"]))
+        body += src
+        cols.append((x, body))
+        maxh = max(maxh, y + 20)
+    out = []
+    for x, body in cols:
+        out.append(f'<rect x="{x:.0f}" y="1" width="{cw:.0f}" height="{maxh - 2}" rx="14" fill="{c["surface"]}" stroke="{c["line"]}"/>')
+        out += body
+    return svg(maxh, out, "How I Work: " + " · ".join(f'{t["trait"]}. {t["evidence"]}' for t in traits))
+
 for theme, c in T.items():
-    for name, fn in (("hero", hero), ("about2", about), ("timeline", tl), ("skills", sk)):
+    for name, fn in (("hero", hero), ("about2", about), ("timeline", tl), ("skills", sk), ("how", how)):
         p = os.path.join(HERE, f"{name}-{theme}.svg")
         io.open(p, "w", encoding="utf-8", newline="\n").write(fn(c))
         print("wrote", os.path.basename(p))
