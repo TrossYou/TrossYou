@@ -216,13 +216,24 @@ def sk(c):
                 line_w = n_in_row * col_w + (n_in_row - 1) * GAP
                 rows.append(f'<rect x="0" y="{y + ROW - 1}" width="{line_w:.0f}" height="1" fill="{c["line"]}"/>')
         y += ROW
-    y += 20
-    rows.append(text(0, y + 12, "써 본 것: " + " · ".join(skills["used"]), 12, c["muted"]))
-    y += 12
-    for line in skills["scale"].split(" · "):
-        y += 18
-        rows.append(text(W, y + 12, line, 12, c["muted"], anchor="end"))
-    return svg(y + 24, rows, "스킬 별점. " + skills["scale"])
+    # 범례: 점 견본 + 뜻. 도표 아래 범례처럼 한 줄에 왼쪽부터
+    y += 28
+    r, gap, x = 4.5, 5, 0
+    for part in skills["scale"].split(" · "):
+        lvl, desc = part.split(": ", 1)
+        n = int(lvl[0])
+        strong = n >= 4
+        for k in range(5):
+            on = k < n
+            fill = (c["accent"] if strong else c["strong"]) if on else "none"
+            stroke = c["accent"] if strong else c["strong"]
+            rows.append(f'<circle cx="{x + r + k*(2*r+gap):.1f}" cy="{y:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
+        x += 5 * 2 * r + 4 * gap + 10
+        rows.append(text(x, y + 4, desc, 12, c["muted"]))
+        x += width_of(desc, 12) + 36
+    y += 26
+    rows.append(text(0, y + 4, "써 본 것: " + " · ".join(skills["used"]), 12, c["muted"]))
+    return svg(y + 16, rows, "스킬 별점. " + skills["scale"])
 
 # ------------------------------------------------------------------ how i work
 def how(c):
