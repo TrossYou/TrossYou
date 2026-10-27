@@ -1,7 +1,7 @@
 <!-- ─────────────── Hero ─────────────── -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" alt="유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자입니다" width="100%">
+  <img src="./assets/hero-light.svg" alt="유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자" width="100%">
 </picture>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 ## About
 
-프로젝트마다 **무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지** 적습니다. 결과물 전시가 아니라 판단의 기록입니다. 숫자에는 전부 출처가 있습니다.
+프로젝트마다 **무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지** 적음. 결과물 전시가 아니라 판단의 기록. 숫자에는 전부 출처가 있음
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about2-dark.svg">
@@ -32,7 +32,7 @@
 
 ## Skills
 
-자주 쓴 것과 써 본 것을 나눴습니다.
+자주 쓴 것과 써 본 것을 나눔
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
@@ -172,7 +172,7 @@
       <b>algorithm</b><br>
       알고리즘 풀이의 접근·오답 원인을 기록하는 학습 로그 대시보드<br>
       <sub>2024– · 개인 · Java · Vanilla JS</sub><br><br>
-      의존성 없이 단일 HTML 파일, 힘 기반 그래프 레이아웃으로 유형 편중과 복습 대기를 본다<br><br>
+      의존성 없이 단일 HTML 파일, 힘 기반 그래프 레이아웃으로 유형 편중과 복습 대기를 봄<br><br>
       <a href="https://trossyou.github.io/algorithm/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://github.com/TrossYou/algorithm"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
     </td>
     <td width="33%" valign="top">
@@ -196,7 +196,7 @@
 
 ## Activity
 
-배운 순서대로 적었습니다.
+배운 순서대로 적음
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
@@ -207,19 +207,19 @@
 
 ## How I Work
 
-성향마다 근거를 하나씩 붙였습니다. 점수는 없습니다.
+성향마다 근거를 하나씩 붙임. 점수는 없음
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/how-dark.svg">
-  <img src="./assets/how-light.svg" alt="스스로 일을 찾아서 한다 · 파트 간 의사소통 · 틀린 것을 기록한다. 성향마다 FINCH 케이스 스터디의 근거 하나" width="100%">
+  <img src="./assets/how-light.svg" alt="스스로 일을 찾아서 함 · 파트 간 의사소통 · 틀린 것을 기록함. 성향마다 FINCH 케이스 스터디의 근거 하나" width="100%">
 </picture>
 
-<sub>근거 · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#확정된-것과-가정한-것을-문서로-갈라-두고-먼저-만들었다">확정된 것과 가정한 것을 문서로 갈라 두고 먼저 만들었다</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#어긋난-것을-고치기-전에-왜-어긋났는지부터-물었다">어긋난 것을 고치기 전에, 왜 어긋났는지부터 물었다</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#제가-올리자고-한-이슈가-틀렸다">제가 올리자고 한 이슈가 틀렸다</a></sub>
+<sub>근거 · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#확정된-것과-가정한-것을-문서로-갈라-두고-먼저-만듦">확정된 것과 가정한 것을 문서로 갈라 두고 먼저 만듦</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#어긋난-것을-고치기-전에-왜-어긋났는지부터-물었음">어긋난 것을 고치기 전에, 왜 어긋났는지부터 물었음</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#내가-올리자고-한-이슈가-틀렸음">내가 올리자고 한 이슈가 틀렸음</a></sub>
 
 ### 에이전트 하네스
 
 `2026.07– · 개인 · PinLog에서 시작해 FINCH와 취업 준비까지`
 
-AI 코딩 에이전트에게 구현과 문서와 기록을 맡기면서, 무엇을 맡기고 무엇을 사람이 쥘지를 정해 둔 운영 방식입니다. 에이전트는 구현·커밋·초안 작성까지 하고, 무엇을 할지와 팀에 무엇을 보낼지는 제가 정합니다. 경계는 에이전트의 실력이 아니라 되돌릴 수 있는가로 그었습니다.
+AI 코딩 에이전트에게 구현과 문서와 기록을 맡기면서, 무엇을 맡기고 무엇을 사람이 쥘지를 정해 둔 운영 방식. 에이전트는 구현·커밋·초안 작성까지 하고, 무엇을 할지와 팀에 무엇을 보낼지는 내가 정함. 경계는 에이전트의 실력이 아니라 되돌릴 수 있는가로 그음
 
 <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>

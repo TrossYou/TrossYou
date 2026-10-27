@@ -46,7 +46,7 @@ def hero(c):
     b.append(text(PAD + 112, 66, "(TrossYou)", 17, c["muted"], 400))
     y = 102
     b.append(f'<text x="{PAD}" y="{y}" font-family="{SANS}" font-size="16" fill="{c["ink"]}">무엇을 결정했고, 무엇이 <tspan fill="{c["atext"]}" font-weight="600">틀렸고</tspan>, 무엇을 남겼는지</text>')
-    b.append(text(PAD, y + 25, "적어 두는 프론트엔드 개발자입니다.", 16, c["ink"]))
+    b.append(text(PAD, y + 25, "적어 두는 프론트엔드 개발자", 16, c["ink"]))
     # 오른쪽 통계 타일 (surface + line, radius 14)
     tw, th = 224, 116
     tx, ty = W - PAD - tw, 12
@@ -59,7 +59,7 @@ def hero(c):
     b.append(text(tx + 150, ty + 82, "ms", 14, c["muted"], 400, MONO))
     b.append(f'<rect x="{tx + 20}" y="{ty + 96}" width="{tw - 40}" height="3" rx="1.5" fill="{c["line"]}"/>')
     b.append(f'<rect x="{tx + 20}" y="{ty + 96}" width="{int((tw - 40) * 149 / 913)}" height="3" rx="1.5" fill="{c["accent"]}"/>')
-    return svg(144, b, "유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자입니다 · 검색 결과 서체 준비 시간 913ms → 149ms")
+    return svg(144, b, "유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자 · 검색 결과 서체 준비 시간 913ms → 149ms")
 
 # ------------------------------------------------------------------ about
 def about(c):
