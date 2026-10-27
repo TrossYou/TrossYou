@@ -51,7 +51,7 @@ def hero(c):
     tw, th = 224, 116
     tx, ty = W - PAD - tw, 12
     b.append(f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="14" fill="{c["surface"]}" stroke="{c["line"]}"/>')
-    b.append(text(tx + 20, ty + 28, "검색 결과 서체 준비 시간", 12, c["ink"], 500))
+    b.append(text(tx + 20, ty + 28, "서체 내려받기 시작 시점", 12, c["ink"], 500))
     b.append(text(tx + 20, ty + 45, "PinLog · Chrome 성능 패널", 11, c["muted"]))
     b.append(text(tx + 20, ty + 82, "913ms", 14, c["muted"], 400, MONO))
     b.append(text(tx + 72, ty + 82, "→", 14, c["muted"], 400, MONO))
@@ -59,7 +59,7 @@ def hero(c):
     b.append(text(tx + 150, ty + 82, "ms", 14, c["muted"], 400, MONO))
     b.append(f'<rect x="{tx + 20}" y="{ty + 96}" width="{tw - 40}" height="3" rx="1.5" fill="{c["line"]}"/>')
     b.append(f'<rect x="{tx + 20}" y="{ty + 96}" width="{int((tw - 40) * 149 / 913)}" height="3" rx="1.5" fill="{c["accent"]}"/>')
-    return svg(144, b, "유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자 · 검색 결과 서체 준비 시간 913ms → 149ms")
+    return svg(144, b, "유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자 · 서체 내려받기 시작 시점 913ms → 149ms")
 
 # ------------------------------------------------------------------ about
 def about(c):
@@ -72,7 +72,7 @@ def about(c):
         b.append(text(x, 54, v, 14, c["ink"], 500))
     b.append(f'<rect x="0" y="72" width="{W}" height="1" fill="{c["line"]}"/>')
     tiles = [("510", "/ 692", "", "프론트엔드 영역 커밋 (74%)", "FINCH · finch-frontend, 2026.09.28 기준"),
-             ("149", "", "ms", "검색 결과 서체 준비 시간, 913ms에서", "PinLog · Chrome 성능 패널 측정"),
+             ("149", "", "ms", "서체 내려받기 시작 시점, 913ms에서", "PinLog · Chrome 성능 패널 측정"),
              ("105", "", "건", "파트 간 문의 정리", "FINCH 문의함 문서, 6주 누적")]
     ty, th, gap = 92, 118, 16
     tw = (W - gap * 2) / 3
@@ -87,7 +87,7 @@ def about(c):
             b.append(text(vx + 2, ty + 44, unit, 16, c["muted"], 400, SANS))
         b.append(text(x + 20, ty + 72, label, 13, c["ink"]))
         b.append(text(x + 20, ty + 94, src, 11, c["muted"]))
-    return svg(ty + th + 4, b, "교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 위치 서울 · 프론트엔드 영역 커밋 510/692 · 서체 준비 시간 913ms→149ms · 파트 간 문의 105건")
+    return svg(ty + th + 4, b, "교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 위치 서울 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 105건")
 
 # ------------------------------------------------------------------ timeline
 def marker(c, x, y, kind, now):

@@ -25,7 +25,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about2-dark.svg">
-  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 프론트엔드 영역 커밋 510/692 · 검색 결과 서체 준비 시간 913ms→149ms · 파트 간 문의 105건" width="100%">
+  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 105건" width="100%">
 </picture>
 
 <br>
@@ -86,7 +86,7 @@
   </tr>
   <tr>
     <td width="72" valign="top"><b>성능</b></td>
-    <td>검색 결과 서체 준비 시간 <b>913ms → 149ms</b>. 결과 표시보다 약 806ms 먼저 준비</td>
+    <td>서체 내려받기 시작 시점 <b>913ms → 149ms</b>. 결과 표시보다 약 806ms 먼저 준비</td>
   </tr>
   <tr>
     <td width="72" valign="top"><b>기여</b></td>
