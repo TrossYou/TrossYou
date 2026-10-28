@@ -73,7 +73,7 @@ def about(c):
     b.append(f'<rect x="0" y="72" width="{W}" height="1" fill="{c["line"]}"/>')
     tiles = [("510", "/ 692", "", "프론트엔드 영역 커밋 (74%)", "FINCH · finch-frontend, 2026.09.28 기준"),
              ("149", "", "ms", "서체 내려받기 시작 시점, 913ms에서", "PinLog · Chrome 성능 패널 측정"),
-             ("105", "", "건", "파트 간 문의 정리", "FINCH 문의함 문서, 6주 누적")]
+             ("105", "", "건", "파트 간 문의 이슈 (팀 전원 작성)", "FINCH GitLab 이슈 보드 · 5주")]
     ty, th, gap = 92, 118, 16
     tw = (W - gap * 2) / 3
     for i, (v, of, unit, label, src) in enumerate(tiles):
@@ -87,7 +87,7 @@ def about(c):
             b.append(text(vx + 2, ty + 44, unit, 16, c["muted"], 400, SANS))
         b.append(text(x + 20, ty + 72, label, 13, c["ink"]))
         b.append(text(x + 20, ty + 94, src, 11, c["muted"]))
-    return svg(ty + th + 4, b, "교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 위치 서울 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 105건")
+    return svg(ty + th + 4, b, "교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 위치 서울 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 이슈 105건")
 
 # ------------------------------------------------------------------ timeline
 def marker(c, x, y, kind, now):

@@ -25,7 +25,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about2-dark.svg">
-  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 105건" width="100%">
+  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 이슈 105건" width="100%">
 </picture>
 
 <br>
@@ -63,7 +63,7 @@
   </tr>
   <tr>
     <td width="72" valign="top"><b>기여</b></td>
-    <td>프론트엔드 영역 커밋 510 / 692 (74%) · 머지된 작업 브랜치 156 / 204 (76%) · 파트 간 문의 105건 정리</td>
+    <td>프론트엔드 영역 커밋 510 / 692 (74%) · 머지된 작업 브랜치 156 / 204 (76%) · 파트 간 문의 이슈 105건 (팀 전원 작성, 5주)</td>
   </tr>
   <tr>
     <td width="72" valign="top"><b>스택</b></td>
@@ -106,6 +106,33 @@
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-fullstack-dark.svg">
   <img src="./assets/header-fullstack-light.svg" alt="FULL-STACK" width="100%">
 </picture>
+
+### <sup>글로케어 · 진행 중</sup><br>외국인 요양보호사의 교육부터 취업까지 한 곳에서 돕는 서비스
+
+`2026.10–11 · 6주 · 6인 · SSAFY 자율 · 기업 연계 · 어드민 · 인프라`
+
+<table>
+  <tr>
+    <td width="72" valign="top"><b>담당</b></td>
+    <td>직원용 관리자 화면(어드민)의 교육생 목록 · 상세와 진행 단계, 직원 계정 · 역할별 권한, 공지 · FAQ, 상담 신청 목록</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>판단</b></td>
+    <td>교육생 진행 단계를 큰 단계 9개와 실제 기록 기반 판정으로 정함. 직원마다 권한을 주는 DB 설계에 역할별 권한을 제안해 받아들여짐</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>인프라</b></td>
+    <td>팀 dev 서버와 CI 담당. 비개발자 멘토가 볼 수 있게 어드민을 경로로 나눔</td>
+  </tr>
+  <tr>
+    <td width="72" valign="top"><b>스택</b></td>
+    <td><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Docker</code> <code>nginx</code> <code>GitLab CI</code></td>
+  </tr>
+</table>
+
+<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/glocare.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
+
+<br>
 
 ### <sup>formabridge</sup><br>좋아하는 음악을 기록하는 음악 SNS 서비스
 
@@ -200,7 +227,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
-  <img src="./assets/timeline-light.svg" alt="2021.12–2022.02 Yacht Dice · 2025.03–11 formabridge · 2025.11 Sorizip · 2026.01.07–06 SSAFY 15기 1학기 925시간 · 2026.02–04 SSAFY 알고리즘 스터디 운영 · 2026.03 SQLD · 2026.07–08 PinLog · 2026.08–09 FINCH" width="100%">
+  <img src="./assets/timeline-light.svg" alt="2021.12 – 2022.02 프로젝트 Yacht Dice · 2025.03 – 11 프로젝트 formabridge · 2025.11 프로젝트 Sorizip · 2025.11 자격 TOPCIT 수준 3 · 2026.01.07 – 06 교육 SSAFY 15기 1학기 · 2026.02 – 04 활동 SSAFY 알고리즘 스터디 운영 · 2026.03 자격 SQLD · 2026.07 – 08 프로젝트 PinLog · 2026.08 – 09 프로젝트 FINCH · 2026.09 자격 정보처리기사 · 2026.10 – 11 프로젝트 글로케어 기업 연계 프로젝트" width="100%">
 </picture>
 
 <br>
