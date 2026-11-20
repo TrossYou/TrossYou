@@ -23,8 +23,8 @@
 외국인 요양보호사의 교육부터 취업까지 한 곳에서 돕는 서비스<br><br>
 직원이 수동으로 기입하던 관리자 화면을 결제 · 배정 기록과 연결된 어드민으로 다시 만드는 일을 팀원 한 명과 맡았고 팀의 dev 서버와 CI도 담당했습니다.<br><br>
 학습이 멈춘 교육생 찾기 <b>74 → 2클릭</b><br><br>
-<a href="https://glocare.co.kr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://k15a401.p.ssafy.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/glocare.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a><br>
-<sub>Live는 런칭 예정 주소로, 지금은 리뉴얼 전 화면입니다. Demo는 팀이 만든 교육생 웹의 리뉴얼 시연입니다.</sub>
+<a href="https://k15a401.p.ssafy.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/glocare.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a><br>
+<sub>서비스는 런칭 예정이라 아직 공개 주소가 없습니다. Demo는 팀이 만든 교육생 웹의 리뉴얼 시연입니다.</sub>
 </td>
 </tr>
 <tr>
