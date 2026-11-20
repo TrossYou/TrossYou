@@ -1,252 +1,78 @@
-<!-- ─────────────── Hero ─────────────── -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" alt="유승주 (TrossYou) · 프론트엔드 개발자 · 무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지 적어 두는 프론트엔드 개발자" width="100%">
+  <img src="./assets/hero-light.svg" alt="유승주 (TrossYou) · AI 코딩 에이전트를 역할별로 나눠 운영하며, 수동 업무를 데이터로 연결하는 프론트엔드 개발자 · 진행 단계 수동 입력 칸 14 → 0 · 대시보드 첫 화면 문서 응답 1,300 → 659ms · FINCH 프론트엔드 영역 커밋 510 / 692" width="100%">
 </picture>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=2000&color=A1A5B0&center=true&vCenter=true&width=520&lines=Frontend+Developer;React+%C2%B7+TypeScript;decided+%2F+wrong+%2F+left+behind">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=2000&color=5D6270&center=true&vCenter=true&width=520&lines=Frontend+Developer;React+%C2%B7+TypeScript;decided+%2F+wrong+%2F+left+behind" alt="Frontend Developer · React · TypeScript · decided / wrong / left behind">
-  </picture>
+기업 연계 프로젝트 글로케어에서 직원용 관리자 화면(어드민)과 dev 서버 · CI를 맡았습니다.<br>
+무엇을 만들지 정하고 에이전트가 낸 안을 검토 · 승인한 뒤 측정으로 확인했습니다.
 </p>
 
 <p align="center">
 <a href="https://trossyou.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Portfolio-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Portfolio-2E4A8B?style=for-the-badge" alt="Portfolio"></picture></a>
-<br><br>
-<a href="mailto:seungju.you1@gmail.com"><code>seungju.you1@gmail.com</code></a>
+&nbsp;<a href="mailto:seungju.you1@gmail.com"><code>seungju.you1@gmail.com</code></a>
 </p>
 
-<br>
+## 대표 프로젝트
 
-## About
+<table>
+<tr>
+<td width="44%" valign="top"><img src="https://raw.githubusercontent.com/TrossYou/portfolio/main/assets/glocare/admin-student-after.jpg" alt="글로케어 어드민 교육생 상세 화면. 진행 단계가 결제 · 배정 기록으로 판정되어 표시됨" width="100%"><br><sub>어드민 교육생 상세 · 더미 데이터로 찍은 화면</sub></td>
+<td valign="top">
+<b>글로케어</b> <sub>2026.10–11 · 6인 · SSAFY 기업 연계 · 런칭 예정</sub><br>
+외국인 요양보호사의 교육부터 취업까지 한 곳에서 돕는 서비스<br><br>
+직원이 수동으로 기입하던 관리자 화면을 결제 · 배정 기록과 연결된 어드민으로 다시 만드는 일을 팀원 한 명과 맡았고 팀의 dev 서버와 CI도 담당했습니다.<br><br>
+학습이 멈춘 교육생 찾기 <b>74 → 2클릭</b><br><br>
+<a href="https://glocare.co.kr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://k15a401.p.ssafy.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/glocare.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a><br>
+<sub>Live는 런칭 예정 주소로, 지금은 리뉴얼 전 화면입니다. Demo는 팀이 만든 교육생 웹의 리뉴얼 시연입니다.</sub>
+</td>
+</tr>
+<tr>
+<td width="44%" valign="top"><img src="https://raw.githubusercontent.com/TrossYou/portfolio/main/assets/finch-banner.png" alt="FINCH 배너. 종목 상세와 AI 채팅 화면" width="100%"></td>
+<td valign="top">
+<b>FINCH</b> <sub>2026.08–09 · 5인 · SSAFY 특화</sub><br>
+내 계좌와 성향을 읽고 투자 판단을 돕는 AI 비서가 있는 증권 앱<br><br>
+프론트엔드 구현 전반을 맡아 종목 상세 · 주문 · AI 채팅 화면과 API 계약 문서 · 목 서버를 만들었습니다.<br><br>
+파트 간 문의 이슈 <b>105건</b> (팀 5인 전원 작성, 5주)<br><br>
+<a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://youtu.be/4Cbu0-vMve4"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+</td>
+</tr>
+<tr>
+<td width="44%" valign="top"><img src="https://raw.githubusercontent.com/TrossYou/portfolio/main/assets/pinlog-home.jpg" alt="PinLog 홈 화면" width="100%"></td>
+<td valign="top">
+<b>PinLog</b> <sub>2026.07–08 · 6인 · SSAFY 공통</sub><br>
+장소 이름이 기억나지 않아도 경험과 감정으로 다시 찾는 AI 장소 기록 서비스<br><br>
+지도 기반 기록 · 자연어 검색 결과 · 컬렉션 피드 화면을 맡았고, 검색 결과가 뜰 때 서체가 바뀌던 깜빡임은 미리 받는 안을 제안하고 측정으로 확인했습니다.<br><br>
+검색 결과가 뜨기 약 <b>806ms</b> 전에 손글씨 서체 준비 (전에는 결과보다 약 11ms 늦음)<br><br>
+<a href="https://youtu.be/lD5MbHL9TZ8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
+</td>
+</tr>
+</table>
 
-프로젝트마다 **무엇을 결정했고, 무엇이 틀렸고, 무엇을 남겼는지** 적음. 결과물 전시가 아니라 판단의 기록. 숫자에는 전부 출처가 있음
+## AI 에이전트로 일하는 방식
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/about2-dark.svg">
-  <img src="./assets/about2-light.svg" alt="교육 SSAFY 15기 2026.01–12 · 학력 숭실대학교 컴퓨터학부 졸업 · 자격 정보처리기사 SQLD TOPCIT 수준 3 · 프론트엔드 영역 커밋 510/692 · 서체 내려받기 시작 시점 913ms→149ms · 파트 간 문의 이슈 105건" width="100%">
-</picture>
+글로케어 6주 동안 Claude Code 세션을 역할별로 나눠 돌렸습니다. 배분 · 감시 · 리뷰 세션을 하나씩 두고 기능 세션은 최대 다섯 개까지 티켓 하나씩 맡겼습니다.<br>
+에이전트는 구현부터 MR · 리뷰 답글까지 하고, MR 생성 · 머지 · 삭제 · 배포 · 의존성 추가처럼 되돌리기 어려운 일은 훅이 멈춰 세우고 직접 허가합니다.<br>
+AI가 쓴 코드는 그 코드를 쓰지 않은 에이전트가 MR 전에 체크리스트로 검사하고 main 앞에서 CI가 한 번 더 확인합니다.
 
-<br>
+**작업 규모** · 내가 올려 머지된 MR 285건 (팀 전체 1,246건) · 리뷰어로 들어간 머지 MR 193건 · 완료한 Jira 티켓 201건 · 리뷰 기록 문서 129건
 
-## Skills
+<sub>GitHub 잔디가 10~11월에 비어 있는 이유는 글로케어를 SSAFY GitLab · Jira에서 진행했기 때문입니다.</sub>
 
-자주 쓴 것과 써 본 것을 나눔
+<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="에이전트 하네스 케이스 스터디"></picture></a>
+
+## 할 수 있는 것
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
-  <img src="./assets/skills-light.svg" alt="React 4 · TypeScript 4 · Tailwind CSS 3 · TanStack Query 3 · Zustand 3 · Router 3 · MSW 3 · Vite 3 · Java 3 · Remix 3. 써 본 것: Spring Boot · Prisma · PostgreSQL · Docker · Kubernetes · GitHub Actions · Vitest · JSP" width="100%">
+  <img src="./assets/skills-light.svg" alt="React 4점 · TypeScript 4점 · Tailwind CSS · TanStack Query · Zustand · Router · MSW · Vite · Java · Remix 3점. 기술마다 할 수 있는 것 한 줄. 써 본 것: Next.js · Spring Boot · Prisma · PostgreSQL · Docker · Kubernetes · GitHub Actions · Vitest · JSP · Supabase · GitLab CI · nginx" width="100%">
 </picture>
 
-<br>
+## AI 에이전트 도입 전 프로젝트
 
-## Projects
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-frontend-dark.svg">
-  <img src="./assets/header-frontend-light.svg" alt="FRONTEND" width="100%">
-</picture>
-
-### <sup>FINCH · 대표 프로젝트</sup><br>내 계좌와 성향을 읽고 투자 판단을 돕는 AI 비서가 있는 증권 앱
-
-`2026.08–09 · 6주 · 5인 · SSAFY 특화 · 프론트엔드 구현 전반`
-
-<table>
-  <tr>
-    <td width="72" valign="top"><b>구현</b></td>
-    <td>종목 상세 · 홈 · AI 채팅 · 예수금 · 주문 화면. 백엔드가 중계하는 시세의 화면 단위 구독·해제, 기간별 캔들 차트, 시장가 매수·매도</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>설계</b></td>
-    <td>아는 에러 코드일 때만 재발급하도록 인증 인터셉터의 방어 방향을 잡음. API 계약 문서와 목 서버(MSW)를 프론트 쪽에서 관리</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>기여</b></td>
-    <td>프론트엔드 영역 커밋 510 / 692 (74%) · 머지된 작업 브랜치 156 / 204 (76%) · 파트 간 문의 이슈 105건 (팀 전원 작성, 5주)</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>스택</b></td>
-    <td><code>React 19</code> <code>TypeScript</code> <code>TanStack Query</code> <code>Zustand</code> <code>Zod</code> <code>MSW</code> <code>lightweight-charts</code></td>
-  </tr>
-</table>
-
-<a href="https://finchapp.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://youtu.be/4Cbu0-vMve4"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-FINCH/finch-frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-
-<br>
-
-### <sup>PinLog</sup><br>장소 이름이 기억나지 않아도 경험과 감정으로 다시 찾는 AI 장소 기록 서비스
-
-`2026.07–08 · 5주 · 6인 · SSAFY 공통 · 프론트엔드 기능 구현`
-
-<table>
-  <tr>
-    <td width="72" valign="top"><b>구현</b></td>
-    <td>지도 기반 기록 · 자연어 검색 결과 화면 · 컬렉션 피드</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>성능</b></td>
-    <td>서체 내려받기 시작 시점 <b>913ms → 149ms</b>. 결과 표시보다 약 806ms 먼저 준비</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>기여</b></td>
-    <td>프론트엔드 저장소 커밋 178 / 206 (86%)</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>스택</b></td>
-    <td><code>React 19</code> <code>TypeScript</code> <code>TanStack Query</code> <code>TanStack Router</code> <code>Vitest</code></td>
-  </tr>
-</table>
-
-<a href="https://youtu.be/lD5MbHL9TZ8"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Demo-4C6CB3?style=for-the-badge&logo=youtube&logoColor=white"><img src="https://img.shields.io/badge/Demo-2E4A8B?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo"></picture></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/pinlog.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/Team-PinLog/front"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-fullstack-dark.svg">
-  <img src="./assets/header-fullstack-light.svg" alt="FULL-STACK" width="100%">
-</picture>
-
-### <sup>글로케어 · 진행 중</sup><br>외국인 요양보호사의 교육부터 취업까지 한 곳에서 돕는 서비스
-
-`2026.10–11 · 6주 · 6인 · SSAFY 자율 · 기업 연계 · 어드민 · 인프라`
-
-<table>
-  <tr>
-    <td width="72" valign="top"><b>담당</b></td>
-    <td>직원용 관리자 화면(어드민)의 교육생 목록 · 상세와 진행 단계, 직원 계정 · 역할별 권한, 공지 · FAQ, 상담 신청 목록</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>판단</b></td>
-    <td>교육생 진행 단계를 큰 단계 9개와 실제 기록 기반 판정으로 정함. 직원마다 권한을 주는 DB 설계에 역할별 권한을 제안해 받아들여짐</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>인프라</b></td>
-    <td>팀 dev 서버와 CI 담당. 비개발자 멘토가 볼 수 있게 어드민을 경로로 나눔</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>스택</b></td>
-    <td><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Docker</code> <code>nginx</code> <code>GitLab CI</code></td>
-  </tr>
-</table>
-
-<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/glocare.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
-
-<br>
-
-### <sup>formabridge</sup><br>좋아하는 음악을 기록하는 음악 SNS 서비스
-
-`2025.03–11 · 4인 · K-PaaS 공모전 · 풀스택 · 배치 자동화`
-
-<table>
-  <tr>
-    <td width="72" valign="top"><b>구현</b></td>
-    <td>Google OAuth + JWT 인증, 메모 · 검색 · 팔로우 기능(Remix loader/action · Prisma 모델까지), Spotify API 연동, 모바일 반응형 UI</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>배치</b></td>
-    <td>Spotify ID 백필 배치 스크립트와, 그것을 GitHub Actions에서 K8s Job으로 실행하는 공통 러너·워크플로 작성</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>기여</b></td>
-    <td>담당 커밋 53 / 184 (29%) · 머지된 PR 54건 (전체 186건)</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>스택</b></td>
-    <td><code>Remix</code> <code>TypeScript</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Docker</code> <code>Kubernetes</code></td>
-  </tr>
-</table>
-
-<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/formabridge.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a> <a href="https://github.com/formalBridge/project_alpha"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-
-<br>
-
-### <sup>Sorizip</sup><br>중고 악기 거래 플랫폼
-
-`2025.11 · 3인 · 숭실대 웹프로그래밍 · 회원 인증 · 게시글 관리`
-
-<table>
-  <tr>
-    <td width="72" valign="top"><b>구현</b></td>
-    <td>처음 다룬 JSP/Servlet으로 회원 인증과 게시글 관리</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>속도</b></td>
-    <td>첫 커밋에서 담당 기능 완료까지 6일</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>기여</b></td>
-    <td>담당 커밋 13 / 66 · 과목 최종 A+ (98점)</td>
-  </tr>
-  <tr>
-    <td width="72" valign="top"><b>스택</b></td>
-    <td><code>Java 17</code> <code>JSP</code> <code>Servlet</code> <code>Tomcat</code> <code>MySQL</code> <code>HikariCP</code></td>
-  </tr>
-</table>
-
-<a href="https://github.com/dongcheolpark/sorizip"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-others-dark.svg">
-  <img src="./assets/header-others-light.svg" alt="OTHERS" width="100%">
-</picture>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>algorithm</b><br>
-      알고리즘 풀이의 접근·오답 원인을 기록하는 학습 로그 대시보드<br>
-      <sub>2024– · 개인 · Java · Vanilla JS</sub><br><br>
-      의존성 없이 단일 HTML 파일, 힘 기반 그래프 레이아웃으로 유형 편중과 복습 대기를 봄<br><br>
-      <a href="https://trossyou.github.io/algorithm/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Live-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Live-2E4A8B?style=for-the-badge" alt="Live"></picture></a> <a href="https://github.com/TrossYou/algorithm"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-    </td>
-    <td width="33%" valign="top">
-      <b>mood-music-recommender</b><br>
-      이미지의 인물과 배경 분위기를 따로 읽어 음악을 추천하는 시스템<br>
-      <sub>2025.06 · 개인 · CLIP · YOLOv8</sub><br><br>
-      31장 평가셋에서 인물 가중치 0.4~0.9를 여섯 단계로 비교해 8:2 선택. 가중치 0.4 대비 정답률 <b>0.2903 → 0.6129</b><br><br>
-      <a href="https://github.com/TrossYou/mood-music-recommender"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-    </td>
-    <td width="33%" valign="top">
-      <b>xv6-mlfq-scheduler</b><br>
-      xv6 커널에 4단계 다단계 피드백 큐 스케줄러를 직접 구현한 과제<br>
-      <sub>2024.02–06 · 개인 · C</sub><br><br>
-      과제 명세가 정한 MLFQ와 Aging을 커널 코드 수준에서 구현<br><br>
-      <a href="https://github.com/TrossYou/xv6-mlfq-scheduler"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Repo-4C6CB3?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/Repo-2E4A8B?style=for-the-badge&logo=github&logoColor=white" alt="Repo"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-## Activity
-
-배운 순서대로 적음
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
-  <img src="./assets/timeline-light.svg" alt="2021.12 – 2022.02 프로젝트 Yacht Dice · 2025.03 – 11 프로젝트 formabridge · 2025.11 프로젝트 Sorizip · 2025.11 자격 TOPCIT 수준 3 · 2026.01.07 – 06 교육 SSAFY 15기 1학기 · 2026.02 – 04 활동 SSAFY 알고리즘 스터디 운영 · 2026.03 자격 SQLD · 2026.07 – 08 프로젝트 PinLog · 2026.08 – 09 프로젝트 FINCH · 2026.09 자격 정보처리기사 · 2026.10 – 11 프로젝트 글로케어 기업 연계 프로젝트" width="100%">
-</picture>
-
-<br>
-
-## How I Work
-
-성향마다 근거를 하나씩 붙임. 점수는 없음
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/how-dark.svg">
-  <img src="./assets/how-light.svg" alt="스스로 일을 찾아서 함 · 파트 간 의사소통 · 틀린 것을 기록함. 성향마다 FINCH 케이스 스터디의 근거 하나" width="100%">
-</picture>
-
-<sub>근거 · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#확정된-것과-가정한-것을-문서로-갈라-두고-먼저-만듦">확정된 것과 가정한 것을 문서로 갈라 두고 먼저 만듦</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#어긋난-것을-고치기-전에-왜-어긋났는지부터-물었음">어긋난 것을 고치기 전에, 왜 어긋났는지부터 물었음</a> · <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/finch.md#내가-올리자고-한-이슈가-틀렸음">내가 올리자고 한 이슈가 틀렸음</a></sub>
-
-### 에이전트 하네스
-
-`2026.07– · 개인 · PinLog에서 시작해 FINCH와 취업 준비까지`
-
-AI 코딩 에이전트에게 구현과 문서와 기록을 맡기면서, 무엇을 맡기고 무엇을 사람이 쥘지를 정해 둔 운영 방식. 에이전트는 구현·커밋·초안 작성까지 하고, 무엇을 할지와 팀에 무엇을 보낼지는 내가 정함. 경계는 에이전트의 실력이 아니라 되돌릴 수 있는가로 그음
-
-<a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/harness.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Case_Study-4C6CB3?style=for-the-badge"><img src="https://img.shields.io/badge/Case_Study-2E4A8B?style=for-the-badge" alt="Case Study"></picture></a>
+- [formabridge](https://github.com/TrossYou/portfolio/blob/main/case-studies/formabridge.md) <sub>2025.03–11</sub> · 음악 기록 SNS. K-PaaS 공모전, 4인. Remix 풀스택과 Spotify ID 백필 배치
+- [Sorizip](https://github.com/dongcheolpark/sorizip) <sub>2025.11</sub> · 중고 악기 거래 플랫폼. 수업 3인 팀에서 JSP · Servlet 회원 인증과 게시글
+- [algorithm](https://trossyou.github.io/algorithm/) <sub>2022–</sub> · 프로그래머스 · 백준 · SWEA 풀이(Java)와 학습 로그 대시보드(Vanilla JS)
+- [mood-music-recommender](https://github.com/TrossYou/mood-music-recommender) <sub>2025.06</sub> · 이미지의 인물 · 배경 분위기를 CLIP으로 따로 읽어 음악을 추천. 컴퓨터비전 수업 개인 프로젝트
+- [xv6 MLFQ 스케줄러](https://github.com/TrossYou/xv6-mlfq-scheduler) <sub>2024</sub> · 교육용 운영체제 xv6 커널에 4단계 MLFQ 스케줄러와 Aging을 C로 구현
+- [Yacht Dice](https://github.com/dongcheolpark/Yacht_Dice_C) <sub>2021.12–2022.02</sub> · 처음 코딩을 배우던 때의 팀 프로젝트. C++ 터미널 주사위 게임, TCP 소켓 대전
