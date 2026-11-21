@@ -2,9 +2,10 @@
 """프로필 README 의 SVG 를 디자인 시스템 토큰으로 생성한다.
 hero · skills 두 가지, 각각 라이트·다크.
 
-- hero: 이름 · 한 줄 소개 · 숫자 셋. 숫자 셋은 사이트 site.ts 의 heroStats
-  (glocare-stage · glocare-dashboard · finch-commits)와 같은 값을 여기 직접 적는다.
-  문구 규칙이 바뀌는 중이라 site.ts 를 읽지 않는다. 사이트 값이 바뀌면 HERO_STATS 를 같이 고친다.
+- hero: 이름 · 첫 화면 문구 · 해결한 문제 숫자 세 개. 문구는 사이트 site.ts 의 person.title,
+  숫자는 projects.ts 의 glocare-stage · glocare-resume · PinLog 서체 요청 시점과 같은 값을 여기 직접 적는다.
+  사이트 값이 바뀌면 TITLE · HERO_STATS 를 같이 고친다(장표 2쪽과 같은 셋).
+- 색은 portfolio/design-system/tokens.json(토큰 v2)을 읽는다.
 - skills: portfolio/data/skills.json 의 rated(점 · can) · scale · used 를 읽는다.
 
 about · timeline · how 그림은 README 에서 빠져 더 만들지 않는다(옛 SVG 파일은 남아 있음).
@@ -15,22 +16,21 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "..", "portfolio", "data")
 skills = json.load(io.open(os.path.join(DATA, "skills.json"), encoding="utf-8"))
 
-T = {
-    "light": dict(ground="#fafafa", surface="#ffffff", tint="#e7ecfa", strong="#b9c7f2", ink="#1c1f27", muted="#5d6270", line="#e2e4ea", accent="#2e4a8b", atext="#2e4a8b", on="#ffffff"),
-    "dark": dict(ground="#0f1114", surface="#17191f", tint="#1f2744", strong="#3b4c86", ink="#e9eaee", muted="#a1a5b0", line="#2a2d36", accent="#4c6cb3", atext="#9db1ec", on="#ffffff"),
-}
+_tok = {t["name"]: t["value"] for t in json.load(io.open(os.path.join(HERE, "..", "..", "portfolio", "design-system", "tokens.json"), encoding="utf-8"))["color"]["tokens"]}
+_MAP = dict(ground="ground", surface="surface", tint="tint", strong="tint-strong", ink="ink", soft="ink-soft", muted="muted", line="line", accent="accent", atext="accent-text", on="on-accent")
+T = {theme: {k: _tok[v][theme] for k, v in _MAP.items()} for theme in ("light", "dark")}
 W = 820
-SANS = "IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif"
-MONO = "JetBrains Mono, Cascadia Mono, Consolas, monospace"
+SANS = "Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif"
+MONO = "Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif"  # 숫자용. GitHub 에선 시스템 글꼴로 그려진다
 
-# 한 줄 소개. 모든 산출물이 같은 문구를 쓴다. 가운데 조각만 강조색
-INTRO = ("AI 코딩 에이전트를 역할별로 나눠 운영하며,", "수동 업무를 데이터로 연결하는", " 프론트엔드 개발자")
+# 첫 화면 문구. 사이트 site.ts person.title 과 같다. 둘째 줄만 강조색
+TITLE = ("시키시면 합니다.", "AI 팀과 함께요.")
 
-# 사이트 heroStats 와 같은 값. (프로젝트, 이전 값, 값, 분모, 단위, 설명)
+# 해결한 문제 셋. (프로젝트, 이전 값, 값, 분모, 단위, 설명)
 HERO_STATS = [
-    ("GLOCARE", "14", "0", "", "칸", "직원이 수동으로 켜던 진행 단계 칸. 결제 · 배정 기록으로 자동 판정"),
-    ("GLOCARE", "1,300", "659", "", "ms", "배포 사이트 대시보드 첫 화면 문서 응답"),
-    ("FINCH", "", "510", "/ 692", "", "프론트엔드 영역 커밋 (74%)"),
+    ("글로케어", "14", "0", "", "칸", "직원이 직접 켜던 진행 단계 칸. 결제 · 배정 기록이 쌓이면 스스로 바뀜"),
+    ("글로케어", "4.41", "2.33", "", "초", "이력서 창이 그려지는 시간. 화면 밀림(CLS)도 0.55 → 0"),
+    ("PinLog", "913", "149", "", "ms", "검색 결과의 손글씨 서체를 요청하는 시점"),
 ]
 
 
@@ -46,7 +46,7 @@ def text(x, y, s, size, fill, weight=400, family=SANS, anchor="start", spacing=N
 def width_of(s, size, mono=False):
     # 한글 0.9em, 공백 0.3em, 그 외 0.52em 어림(시스템 산세리프 실측보다 조금 넉넉하게). 고정폭 글꼴은 0.62em
     if mono:
-        return len(s) * size * 0.62
+        return len(s) * size * 0.56
     return sum(size * (0.9 if ord(ch) > 0x2E80 else 0.3 if ch == " " else 0.52) for ch in s)
 
 
@@ -75,12 +75,13 @@ def hero(c):
     PAD = 24
     b = []
     b.append(f'<rect x="{PAD}" y="18" width="20" height="2" fill="{c["accent"]}"/>')
-    b.append(text(PAD + 30, 23, "FRONTEND DEVELOPER · SSAFY 15기", 11, c["muted"], 500, MONO, spacing="1.4"))
-    b.append(text(PAD, 68, "유승주", 34, c["ink"], 700))
-    b.append(text(PAD + 104, 68, "(TrossYou)", 17, c["muted"], 400))
-    b.append(text(PAD, 110, INTRO[0], 20, c["ink"], 500))
-    b.append(f'<text x="{PAD}" y="140" font-family="{SANS}" font-size="20" font-weight="500" fill="{c["ink"]}">'
-             f'<tspan fill="{c["atext"]}" font-weight="700">{esc(INTRO[1])}</tspan>{esc(INTRO[2])}</text>')
+    b.append(text(PAD + 30, 23, "프론트엔드 개발자 · SSAFY 15기", 13, c["atext"], 700))
+    b.append(text(PAD, 64, "유승주", 30, c["ink"], 800))
+    b.append(text(PAD + 96, 64, "(TrossYou)", 16, c["muted"], 400))
+    b.append(text(PAD, 108, TITLE[0], 28, c["ink"], 800))
+    tw0 = width_of(TITLE[1], 28) * 0.9
+    b.append(f'<rect x="{PAD}" y="128" width="{tw0:.1f}" height="12" fill="{c["strong"]}"/>')
+    b.append(text(PAD, 142, TITLE[1], 28, c["ink"], 800))
 
     GAP = 14
     tw = (W - PAD * 2 - GAP * 2) / 3
@@ -91,7 +92,7 @@ def hero(c):
     for i, (proj, frm, val, of, unit, _label) in enumerate(HERO_STATS):
         x = PAD + i * (tw + GAP)
         b.append(f'<rect x="{x:.1f}" y="{ty}" width="{tw:.1f}" height="{th}" rx="14" fill="{c["surface"]}" stroke="{c["line"]}"/>')
-        b.append(text(x + 20, ty + 26, proj, 10.5, c["muted"], 500, MONO, spacing="1.2"))
+        b.append(text(x + 20, ty + 26, proj, 12, c["muted"], 700))
         vx = x + 20
         vy = ty + 62
         if frm:
@@ -106,9 +107,9 @@ def hero(c):
         if unit:
             b.append(text(vx, vy, unit, 15, c["muted"], 400, MONO if unit.isascii() else SANS))
         for k, line in enumerate(labels[i]):
-            b.append(text(x + 20, ty + 90 + 18 * k, line, 12.5, c["ink"]))
+            b.append(text(x + 20, ty + 90 + 18 * k, line, 12.5, c["soft"]))
     stats = " · ".join(f'{s[5]} {(s[1] + " → ") if s[1] else ""}{s[2]}{s[3]}{s[4]}' for s in HERO_STATS)
-    return svg(ty + th + 4, b, f"유승주 (TrossYou) · {''.join(INTRO)} · {stats}")
+    return svg(ty + th + 4, b, f"유승주 (TrossYou) · {' '.join(TITLE)} · {stats}")
 
 
 # ------------------------------------------------------------------ skills
@@ -118,9 +119,10 @@ def dots(c, x, cy, level):
     out = []
     for k in range(5):
         on = k < level
-        fill = (c["accent"] if strong else c["strong"]) if on else "none"
-        stroke = c["accent"] if strong else c["strong"]
-        out.append(f'<circle cx="{x + r + k * (2 * r + gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{stroke}" stroke-width="1.5"/>')
+        # 4점 이상은 초록, 3점 이하는 같은 초록을 옅게(흰 바탕에서 점이 사라지지 않게)
+        op = "1" if strong else "0.45"
+        fill = c["accent"] if on else "none"
+        out.append(f'<circle cx="{x + r + k * (2 * r + gap):.1f}" cy="{cy:.1f}" r="{r - 0.75}" fill="{fill}" stroke="{c["accent"]}" stroke-width="1.5" fill-opacity="{op}" stroke-opacity="{op}"/>')
     return out
 
 
@@ -137,7 +139,7 @@ def sk(c):
     rows, y = [], 0
     for gi, (g, items) in enumerate(groups):
         y += 0 if gi == 0 else 26
-        rows.append(text(0, y + 14, g, 12, c["muted"], 500, MONO, spacing="1.2"))
+        rows.append(text(0, y + 14, g, 13, c["muted"], 700))
         y += 24
         for s in items:
             lines = wrap(s["can"], SIZE, CAN_W)
@@ -146,7 +148,7 @@ def sk(c):
             rows.append(text(NAME_X, first, s["name"], 14, c["ink"], 600))
             rows += dots(c, DOT_X, first - 5, s["level"])
             for k, line in enumerate(lines):
-                rows.append(text(CAN_X, first + LH * k, line, SIZE, c["ink"]))
+                rows.append(text(CAN_X, first + LH * k, line, SIZE, c["soft"]))
             y += h
             rows.append(f'<rect x="0" y="{y - 1:.0f}" width="{W}" height="1" fill="{c["line"]}"/>')
     y += 28

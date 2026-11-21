@@ -1,28 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 296" width="820" height="296" role="img" aria-label="유승주 (TrossYou) · AI 코딩 에이전트를 역할별로 나눠 운영하며,수동 업무를 데이터로 연결하는 프론트엔드 개발자 · 직원이 수동으로 켜던 진행 단계 칸. 결제 · 배정 기록으로 자동 판정 14 → 0칸 · 배포 사이트 대시보드 첫 화면 문서 응답 1,300 → 659ms · 프론트엔드 영역 커밋 (74%) 510/ 692">
-<rect x="24" y="18" width="20" height="2" fill="#4c6cb3"/>
-<text x="54.0" y="23.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="11" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.4">FRONTEND DEVELOPER · SSAFY 15기</text>
-<text x="24.0" y="68.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#e9eaee" text-anchor="start">유승주</text>
-<text x="128.0" y="68.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="17" font-weight="400" fill="#a1a5b0" text-anchor="start">(TrossYou)</text>
-<text x="24.0" y="110.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="20" font-weight="500" fill="#e9eaee" text-anchor="start">AI 코딩 에이전트를 역할별로 나눠 운영하며,</text>
-<text x="24" y="140" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="20" font-weight="500" fill="#e9eaee"><tspan fill="#9db1ec" font-weight="700">수동 업무를 데이터로 연결하는</tspan> 프론트엔드 개발자</text>
-<rect x="24.0" y="168" width="248.0" height="124" rx="14" fill="#17191f" stroke="#2a2d36"/>
-<text x="44.0" y="194.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="10.5" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">GLOCARE</text>
-<text x="44.0" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">14</text>
-<text x="68.6" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">→</text>
-<text x="85.9" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="30" font-weight="600" fill="#9db1ec" text-anchor="start">0</text>
-<text x="110.5" y="230.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">칸</text>
-<text x="44.0" y="258.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#e9eaee" text-anchor="start">직원이 수동으로 켜던 진행 단계 칸.</text>
-<text x="44.0" y="276.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#e9eaee" text-anchor="start">결제 · 배정 기록으로 자동 판정</text>
-<rect x="286.0" y="168" width="248.0" height="124" rx="14" fill="#17191f" stroke="#2a2d36"/>
-<text x="306.0" y="194.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="10.5" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">GLOCARE</text>
-<text x="306.0" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">1,300</text>
-<text x="358.5" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">→</text>
-<text x="375.8" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="30" font-weight="600" fill="#9db1ec" text-anchor="start">659</text>
-<text x="437.6" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">ms</text>
-<text x="306.0" y="258.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#e9eaee" text-anchor="start">배포 사이트 대시보드 첫 화면 문서 응답</text>
-<rect x="548.0" y="168" width="248.0" height="124" rx="14" fill="#17191f" stroke="#2a2d36"/>
-<text x="568.0" y="194.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="10.5" font-weight="500" fill="#a1a5b0" text-anchor="start" letter-spacing="1.2">FINCH</text>
-<text x="568.0" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="30" font-weight="600" fill="#9db1ec" text-anchor="start">510</text>
-<text x="629.8" y="230.0" font-family="JetBrains Mono, Cascadia Mono, Consolas, monospace" font-size="15" font-weight="400" fill="#a1a5b0" text-anchor="start">/ 692</text>
-<text x="568.0" y="258.0" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#e9eaee" text-anchor="start">프론트엔드 영역 커밋 (74%)</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 296" width="820" height="296" role="img" aria-label="유승주 (TrossYou) · 시키시면 합니다. AI 팀과 함께요. · 직원이 직접 켜던 진행 단계 칸. 결제 · 배정 기록이 쌓이면 스스로 바뀜 14 → 0칸 · 이력서 창이 그려지는 시간. 화면 밀림(CLS)도 0.55 → 0 4.41 → 2.33초 · 검색 결과의 손글씨 서체를 요청하는 시점 913 → 149ms">
+<rect x="24" y="18" width="20" height="2" fill="#2a7d62"/>
+<text x="54.0" y="23.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#7fd0b3" text-anchor="start">프론트엔드 개발자 · SSAFY 15기</text>
+<text x="24.0" y="64.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#e8ecea" text-anchor="start">유승주</text>
+<text x="120.0" y="64.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="16" font-weight="400" fill="#9ea6a2" text-anchor="start">(TrossYou)</text>
+<text x="24.0" y="108.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="28" font-weight="800" fill="#e8ecea" text-anchor="start">시키시면 합니다.</text>
+<rect x="24" y="128" width="167.8" height="12" fill="#24473b"/>
+<text x="24.0" y="142.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="28" font-weight="800" fill="#e8ecea" text-anchor="start">AI 팀과 함께요.</text>
+<rect x="24.0" y="168" width="248.0" height="124" rx="14" fill="#1a1f22" stroke="#2a3033"/>
+<text x="44.0" y="194.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#9ea6a2" text-anchor="start">글로케어</text>
+<text x="44.0" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">14</text>
+<text x="66.8" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">→</text>
+<text x="83.2" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="30" font-weight="600" fill="#7fd0b3" text-anchor="start">0</text>
+<text x="106.0" y="230.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">칸</text>
+<text x="44.0" y="258.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">직원이 직접 켜던 진행 단계 칸. 결제 ·</text>
+<text x="44.0" y="276.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">배정 기록이 쌓이면 스스로 바뀜</text>
+<rect x="286.0" y="168" width="248.0" height="124" rx="14" fill="#1a1f22" stroke="#2a3033"/>
+<text x="306.0" y="194.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#9ea6a2" text-anchor="start">글로케어</text>
+<text x="306.0" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">4.41</text>
+<text x="345.6" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">→</text>
+<text x="362.0" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="30" font-weight="600" fill="#7fd0b3" text-anchor="start">2.33</text>
+<text x="435.2" y="230.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">초</text>
+<text x="306.0" y="258.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">이력서 창이 그려지는 시간. 화면</text>
+<text x="306.0" y="276.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">밀림(CLS)도 0.55 → 0</text>
+<rect x="548.0" y="168" width="248.0" height="124" rx="14" fill="#1a1f22" stroke="#2a3033"/>
+<text x="568.0" y="194.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#9ea6a2" text-anchor="start">PinLog</text>
+<text x="568.0" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">913</text>
+<text x="599.2" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">→</text>
+<text x="615.6" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="30" font-weight="600" fill="#7fd0b3" text-anchor="start">149</text>
+<text x="672.0" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">ms</text>
+<text x="568.0" y="258.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">검색 결과의 손글씨 서체를 요청하는</text>
+<text x="568.0" y="276.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">시점</text>
 </svg>
