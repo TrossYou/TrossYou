@@ -4,7 +4,7 @@
 <text x="24.0" y="64.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#e8ecea" text-anchor="start">유승주</text>
 <text x="120.0" y="64.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="16" font-weight="400" fill="#9ea6a2" text-anchor="start">(TrossYou)</text>
 <text x="24.0" y="108.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="28" font-weight="800" fill="#e8ecea" text-anchor="start">시키시면 합니다.</text>
-<rect x="24" y="128" width="167.8" height="12" fill="#24473b"/>
+<rect x="24" y="128" width="188.0" height="12" fill="#24473b"/>
 <text x="24.0" y="142.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="28" font-weight="800" fill="#e8ecea" text-anchor="start">AI 팀과 함께요.</text>
 <rect x="24.0" y="168" width="248.0" height="124" rx="14" fill="#1a1f22" stroke="#2a3033"/>
 <text x="44.0" y="194.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#9ea6a2" text-anchor="start">글로케어</text>
@@ -12,8 +12,8 @@
 <text x="66.8" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">→</text>
 <text x="83.2" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="30" font-weight="600" fill="#7fd0b3" text-anchor="start">0</text>
 <text x="106.0" y="230.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">칸</text>
-<text x="44.0" y="258.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">직원이 직접 켜던 진행 단계 칸. 결제 ·</text>
-<text x="44.0" y="276.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">배정 기록이 쌓이면 스스로 바뀜</text>
+<text x="44.0" y="258.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">직원이 직접 켜던 진행 단계 칸. 결제</text>
+<text x="44.0" y="276.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12.5" font-weight="400" fill="#c3c9c6" text-anchor="start">· 배정 기록이 쌓이면 스스로 바뀜</text>
 <rect x="286.0" y="168" width="248.0" height="124" rx="14" fill="#1a1f22" stroke="#2a3033"/>
 <text x="306.0" y="194.0" font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#9ea6a2" text-anchor="start">글로케어</text>
 <text x="306.0" y="230.0" font-family="Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#9ea6a2" text-anchor="start">4.41</text>

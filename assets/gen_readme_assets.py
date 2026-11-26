@@ -44,10 +44,11 @@ def text(x, y, s, size, fill, weight=400, family=SANS, anchor="start", spacing=N
 
 
 def width_of(s, size, mono=False):
-    # 한글 0.9em, 공백 0.3em, 그 외 0.52em 어림(시스템 산세리프 실측보다 조금 넉넉하게). 고정폭 글꼴은 0.62em
+    # 한글 1.0em, 공백 0.33em, 그 외 0.6em 어림. README의 SVG는 보는 사람 PC의 글꼴로 그려진다.
+    # Windows 맑은 고딕은 한글 · 영문 모두 Noto Sans KR보다 넓어, 0.9 · 0.52로 어림하면 오른쪽 끝이 잘렸다(2026-11-26)
     if mono:
         return len(s) * size * 0.56
-    return sum(size * (0.9 if ord(ch) > 0x2E80 else 0.3 if ch == " " else 0.52) for ch in s)
+    return sum(size * (1.0 if ord(ch) > 0x2E80 else 0.33 if ch == " " else 0.6) for ch in s)
 
 
 def wrap(s, size, max_w):

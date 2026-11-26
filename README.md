@@ -21,7 +21,7 @@ AI가 하는 몫은 커졌고 무엇을 할지 정하고 결과를 확인하는 
 <td valign="top">
 <b>글로케어</b> <sub>2026.10–11 · 6인(관리자 화면 3) · SSAFY 기업 연계 · 런칭 준비 중 · AI 팀 운영</sub><br>
 외국인 요양보호사의 교육부터 취업까지 돕는 서비스<br><br>
-교육생이 학습하는 웹과 직원이 교육생을 챙기는 관리자 화면을 6명이 6주 동안 만들었습니다. 저는 디자인 시안 · 관리자 화면(교육생 · 직원 권한 · 문자 발송) · 개발 서버와 CI · 서비스 소개 영상을 맡았습니다.<br><br>
+교육생이 학습하는 웹과 직원이 교육생을 챙기는 관리자 화면을 6명이 6주 동안 만들었습니다. 저는 디자인 시안 · 관리자 화면 기능 단위 풀스택(교육생 · 직원 권한 · 문자 발송, 화면부터 서버 액션까지) · 개발 서버와 CI · 서비스 소개 영상을 맡았습니다.<br><br>
 직원이 직접 켜던 진행 단계 칸 <b>14 → 0</b> · 이력서 창이 그려지는 시간 <b>4.41 → 2.33초</b><br><br>
 <a href="https://k15a401.p.ssafy.io/"><img src="https://img.shields.io/badge/Demo-2A7D62?style=for-the-badge" alt="Demo"></a> <a href="https://github.com/TrossYou/portfolio/blob/main/case-studies/glocare.md"><img src="https://img.shields.io/badge/Case_Study-2A7D62?style=for-the-badge" alt="Case Study"></a><br>
 <sub>서비스는 런칭을 준비하고 있어 아직 공개 주소가 없습니다. Demo는 팀이 만든 교육생 웹의 리뉴얼 시연입니다.</sub>
@@ -77,7 +77,7 @@ AI가 쓴 코드는 그냥 믿지 않고 네 번 거릅니다.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
-  <img src="./assets/skills-light.svg" alt="할 수 있는 것. React 4점: 실시간 시세 · 주문 · AI 채팅처럼 상태가 많은 화면을 컴포넌트로 나눠 만들고 화면 단위로 시세 구독을 붙였다 뗍니다. · TypeScript 4점: API 응답을 Zod 스키마로 검증하고 타입을 거기서 뽑아 계약이 바뀌면 컴파일 단계에서 드러나게 합니다. · Tailwind CSS 3점: v4로 디자인 토큰을 잡고 모바일 우선 반응형 화면을 만듭니다. · TanStack Query 3점: 시세처럼 자주 바뀌는 서버 상태의 캐시 · 재요청 · 구독 해제를 다룹니다. · Zustand 3점: 서버 상태와 나눠, 여러 화면이 함께 쓰는 클라이언트 상태를 작은 스토어로 둡니다. · Next.js 3점: App Router로 관리자 화면을 만들고, 서버가 화면을 나눠 보내는 스트리밍으로 교육생 목록이 먼저 보이게 했습니다. · Router 3점: React Router · TanStack Router로 라우트 구조와 페이지 지연 로딩을 짭니다. · MSW 3점: 백엔드가 오기 전에 API 계약대로 목 서버를 세워 팀이 같은 응답으로 개발하게 합니다. · Vite 3점: 설정 · 배포 경로 · 빌드를 다룹니다. 플러그인을 직접 만들어 보지는 않았습니다. · Java 3점: 알고리즘 풀이의 주 언어이고, JSP · Servlet으로 회원 인증과 게시글 기능을 만들어 봤습니다. · Remix 3점: loader · action으로 데이터를 읽고 쓰는 풀스택 화면을 만들었습니다. 점은 맡아 본 범위입니다. 4점은 두 프로젝트 넘게 핵심 화면을 맡아 봤고 3점은 한 프로젝트에서 제대로 써 봤습니다. 써 본 것: Spring Boot, Prisma, PostgreSQL, Docker, Kubernetes, GitHub Actions, Vitest, JSP, Supabase, GitLab CI, nginx" width="100%">
+  <img src="./assets/skills-light.svg" alt="할 수 있는 것. React 4점: 실시간 시세 · 주문 · AI 채팅처럼 상태가 많은 화면을 컴포넌트로 나눠 만들고 화면 단위로 시세 구독을 붙였다 뗍니다. · TypeScript 4점: API 응답을 Zod 스키마로 검증하고 타입을 거기서 뽑아 계약이 바뀌면 컴파일 단계에서 드러나게 합니다. · Tailwind CSS 3점: v4로 디자인 토큰을 잡고 모바일 우선 반응형 화면을 만듭니다. · TanStack Query 3점: 시세처럼 자주 바뀌는 서버 상태의 캐시 · 재요청 · 구독 해제를 다룹니다. · Zustand 3점: 서버 상태와 나눠, 여러 화면이 함께 쓰는 클라이언트 상태를 작은 스토어로 둡니다. · Next.js 3점: App Router로 관리자 화면을 만들고, 맡은 기능의 조회 · 저장을 서버 액션으로 짰으며, 서버가 화면을 나눠 보내는 스트리밍으로 교육생 목록이 먼저 보이게 했습니다. · Router 3점: React Router · TanStack Router로 라우트 구조와 페이지 지연 로딩을 짭니다. · MSW 3점: 백엔드가 오기 전에 API 계약대로 목 서버를 세워 팀이 같은 응답으로 개발하게 합니다. · Vite 3점: 설정 · 배포 경로 · 빌드를 다룹니다. 플러그인을 직접 만들어 보지는 않았습니다. · Java 3점: 알고리즘 풀이의 주 언어이고, JSP · Servlet으로 회원 인증과 게시글 기능을 만들어 봤습니다. · Remix 3점: loader · action으로 데이터를 읽고 쓰는 풀스택 화면을 만들었습니다. 점은 맡아 본 범위입니다. 4점은 두 프로젝트 넘게 핵심 화면을 맡아 봤고 3점은 한 프로젝트에서 제대로 써 봤습니다. 써 본 것: Spring Boot, Prisma, PostgreSQL, Docker, Kubernetes, GitHub Actions, Vitest, JSP, Supabase, GitLab CI, nginx" width="100%">
 </picture>
 
 **교육 · 자격** · SSAFY 15기(2026.01–12) · 숭실대학교 컴퓨터학부 졸업 · 정보처리기사 · SQLD · TOPCIT 수준 3 · TOEIC Speaking IH
