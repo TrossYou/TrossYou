@@ -23,14 +23,15 @@ W = 820
 SANS = "Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, Segoe UI, sans-serif"
 MONO = "Outfit, Apple SD Gothic Neo, Segoe UI, sans-serif"  # 숫자용. GitHub 에선 시스템 글꼴로 그려진다
 
-# 첫 화면 문구. 사이트 site.ts person.title 과 같다. 둘째 줄만 강조색
-TITLE = ("시키시면 합니다.", "AI 팀과 함께요.")
+# 첫 화면 문구. 사이트 site.ts person.title(세 줄)을 그림 폭에 맞춰 두 줄로 묶음. 둘째 줄만 강조색
+# 2026.11.27 SSAFY 최종 장표의 캐치프레이즈로 바꿈(옛 문구 「시키시면 합니다. / AI 팀과 함께요.」)
+TITLE = ("기준을 먼저 정하고, 바뀐 것은 숫자로 확인하는", "프론트엔드 개발자")
 
 # 해결한 문제 셋. (프로젝트, 이전 값, 값, 분모, 단위, 설명)
 HERO_STATS = [
     ("글로케어", "14", "0", "", "칸", "직원이 직접 켜던 진행 단계 칸. 결제 · 배정 기록이 쌓이면 스스로 바뀜"),
     ("글로케어", "4.41", "2.33", "", "초", "이력서 창이 그려지는 시간. 화면 밀림(CLS)도 0.55 → 0"),
-    ("PinLog", "913", "149", "", "ms", "검색 결과의 손글씨 서체를 요청하는 시점"),
+    ("PinLog", "913", "149", "", "ms", "페이지 진입 후 검색 결과의 손글씨 서체를 요청하는 시점"),
 ]
 
 
@@ -76,7 +77,7 @@ def hero(c):
     PAD = 24
     b = []
     b.append(f'<rect x="{PAD}" y="18" width="20" height="2" fill="{c["accent"]}"/>')
-    b.append(text(PAD + 30, 23, "프론트엔드 개발자 · SSAFY 15기", 13, c["atext"], 700))
+    b.append(text(PAD + 30, 23, "SSAFY 15기 · 포트폴리오", 13, c["atext"], 700))
     b.append(text(PAD, 64, "유승주", 30, c["ink"], 800))
     b.append(text(PAD + 96, 64, "(TrossYou)", 16, c["muted"], 400))
     b.append(text(PAD, 108, TITLE[0], 28, c["ink"], 800))

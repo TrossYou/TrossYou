@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" alt="유승주 (TrossYou) · 시키시면 합니다. AI 팀과 함께요. · 진행 단계 칸 14 → 0 · 이력서 창 4.41 → 2.33초 · PinLog 서체 요청 시점 913 → 149ms" width="100%">
+  <img src="./assets/hero-light.svg" alt="유승주 (TrossYou) · 기준을 먼저 정하고, 바뀐 것은 숫자로 확인하는 프론트엔드 개발자 · 진행 단계 칸 14 → 0 · 이력서 창 4.41 → 2.33초 · PinLog 페이지 진입 후 서체 요청 시점 913 → 149ms" width="100%">
 </picture>
 
 <p align="center">
-직접 코딩하던 때부터 AI 세션 여럿을 나눠 돌리는 지금까지,<br>
-AI가 하는 몫은 커졌고 무엇을 할지 정하고 결과를 확인하는 일은 늘 제가 했습니다.
+화면이 느리거나 업무가 번거로운 곳을 찾으면 바꾸기 전과 뒤를 재고, 같은 조건에서 다시 재서 확인된 것만 개선으로 남깁니다.<br>
+구현은 AI 에이전트에게 나눠 맡기고, 무엇을 만들지와 어떤 기준으로 동작할지는 직접 정합니다.
 </p>
 
 <p align="center">
